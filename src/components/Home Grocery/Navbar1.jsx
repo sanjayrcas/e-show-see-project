@@ -202,7 +202,7 @@ export default function Navbar1() {
                             
                             {/* menuBar 2 list 3 */}
                             <li id='list3' className="nav-item">
-                                <Link id='link-3' className="nav-link" href="#">
+                                <Link id='link-3' className="nav-link" to="/login">
                                     <FontAwesomeIcon icon={faCircleUser} id='menu2CircleUserIcon' />
                                     My Account
                                 </Link>
