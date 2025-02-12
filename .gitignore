@@ -1,0 +1,5 @@
+# dependencies
+/Phosphor-Icons
+/node_modules
+/.pnp
+.pnp.js

@@ -1,0 +1,83 @@
+/* media queries Navbar 3 SideBar 1 for XSM */
+@media(max-width: 575.98px){
+    /* button for offcanvas open */
+    #sideBarBtnOpen{
+        /* background-color: red; */
+        color: #212529;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-left-color: #e6e6e6;
+        border-right-color: #e6e6e6;
+        border-top: none;
+        border-bottom: none;
+        padding: 10px 0px;
+        width: 160px; 
+        font-size: 13px;
+    }
+    /* grid icon */
+    #NavSideBarGridIcon{
+        font-size: 20px;
+        margin: 0px 5px 0px 5px;
+    }
+}
+/* media queries Navbar 3 SideBar 1 for SM */
+@media(max-width: 767.98px) and (min-width: 576px){
+    /* button for offcanvas open */
+    #sideBarBtnOpen{
+        /* background-color: red; */
+        color: #212529;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-left-color: #e6e6e6;
+        border-right-color: #e6e6e6;
+        border-top: none;
+        border-bottom: none;
+        padding: 10px 0px;
+        width: 175px; 
+        font-size: 13px;
+    }
+}
+/* media queries Navbar 3 SideBar 1 for MD */
+@media(max-width: 991.98px) and (min-width: 768px){
+    /* button for offcanvas open */
+    #sideBarBtnOpen{
+        /* background-color: rgb(255, 157, 0); */
+        color: #212529;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-left-color: #e6e6e6;
+        border-right-color: #e6e6e6;
+        border-top: none;
+        border-bottom: none;
+        padding: 10px 0px;
+        width: 200px; 
+    }
+    /* grid icon */
+    #NavSideBarGridIcon{
+        font-size: 20px;
+        margin: 0px 10px 0px 20px;
+    }
+    /* angle down icon */
+    #NavSideBarAngleDownIcon{
+        font-size: 20px;
+        margin: 0px 10px 0px 10px;
+    }
+}
+/* media queries Navbar 3 SideBar 1 for LG */
+@media(max-width: 1199.98px) and (min-width: 992px){
+    #sideBarBtnOpen{
+        display: none;
+    }
+}
+/* media queries Navbar 3 SideBar 1 for XL */
+@media(max-width: 1399.98px) and (min-width: 1200px){
+    #sideBarBtnOpen{
+        display: none;
+    }
+}
+/* media queries Navbar 3 SideBar 1 for XLL and Above */
+@media(min-width: 1400px){
+    #sideBarBtnOpen{
+        display: none;
+    }
+}

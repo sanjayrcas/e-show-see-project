@@ -1,0 +1,120 @@
+/* media queries Navbar 1 for xsm */
+@media(max-width: 575.98px){
+    /* menuBox 1 */
+    #menuBox1{
+        display: none;
+    }
+    /* menuBar 2 list 3 */
+    #list3{
+        /* background-color: blue; */
+        position: absolute;
+        right: 0px;
+    }
+    /* link - 2 and link - 3 */
+    #link-2,#link-3{
+        /* background-color: pink;  */
+        padding: 8px 11px 8px 11px;
+        font-size: 12px;
+        color: white;
+        word-spacing: 0.30mm;
+    }
+    /* menu 2 Angle Down Icon */
+    #menu2AngleDownIcon{
+        margin: 0px 0px 0px 3px;
+        font-size: 8px;
+    }
+    /* vr Ruler usd */
+    #vrRuler3{
+        display: none;
+    }
+}
+/* media queries Navbar 1 for sm */
+@media(max-width: 767.98px) and (min-width: 576px){
+    /* menuBox 1 */
+    #menuBox1{
+        display: none;
+    }
+    /* menuBar 2 list 3 */
+    #list3{
+        /* background-color: blue; */
+        position: absolute;
+        right: 0px;
+    }
+    /* link - 2 and link - 3*/
+    #link-2,#link-3{
+        /* background-color: orange;  */
+        padding: 8px 11px 8px 11px;
+        font-size: 12px;
+        color: white;
+        word-spacing: 0.30mm;
+    }
+    /* menu 2 Angle Down Icon */
+    #menu2AngleDownIcon{
+        margin: 0px 0px 0px 3px;
+        font-size: 8px;
+    }
+    /* vr Ruler usd */
+    #vrRuler3{
+        display: none;
+    }
+}
+/* media queries Navbar 1 for md */
+@media(max-width: 991.98px) and (min-width: 768px){
+    /* menuBox 1 */
+    #menuBox1{
+        display: block;
+    }
+    /* link - 1  and link - 2 and link - 3*/
+    #link-1,#link-2,#link-3{
+        /* background-color: aqua;  */
+        padding: 8px 11px 8px 11px;
+        font-size: 12px;
+        color: white;
+        word-spacing: 0.30mm;
+    }
+}
+/* media queries Navbar 1 for lg */
+@media(max-width: 1199.98px) and (min-width: 992px){
+    /* menuBox 1 */
+    #menuBox1{
+        display: block;
+    }
+    /* link - 1  and link - 2 and link - 3*/
+    #link-1,#link-2,#link-3{
+        /* background-color: darkblue;  */
+        padding: 7px 15px 7px 15px;
+        font-size: 13px;
+        color: white;
+        word-spacing: 0.30mm;
+    }
+}
+/* media queries Navbar 1 for xl */
+@media(max-width: 1399.98px) and (min-width: 1200px){
+    /* menuBox 1 */
+    #menuBox1{
+        display: block;
+    }
+    /* link - 1  and link - 2 and link - 3*/
+    #link-1,#link-2,#link-3{
+        /* background-color: rebeccapurple;  */
+        padding: 6px 15px 6px 15px;
+        font-size: 15px;
+        color: white;
+        word-spacing: 0.30mm;
+    }
+}
+/* media queries Navbar 1 for xll and above */
+@media(min-width: 1400px){
+    /* menuBox 1 */
+    #menuBox1{
+        display: block;
+    }
+    /* link - 1  and link - 2 and link - 3*/
+    #link-1,#link-2,#link-3{
+        /* background-color: deeppink;  */
+        padding: 6px 20px 6px 20px;
+        font-size: 15px;
+        color: white;
+        word-spacing: 0.30mm;
+    }
+}

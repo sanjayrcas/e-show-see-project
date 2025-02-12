@@ -1,0 +1,72 @@
+@media (max-width: 575.99px){
+    .mainContainer{
+        width: 260px;
+    }
+    .timerContainer{
+        /* background-color: orange; */
+        padding: 0;
+    }
+    .timerBox{
+        background-color: white;
+    }
+}
+@media (max-width: 767.99px) and (min-width: 576px){
+    .mainContainer{
+        width: 240px;
+    }
+    .timerContainer{
+        /* background-color: red; */
+        padding: 0;
+    }
+    .timerBox{
+        background-color: white;
+    }
+}
+@media (max-width: 991.99px) and (min-width: 768px){
+    .mainContainer{
+        width: 300px;
+    }
+    .timerContainer{
+        /* background-color: blue; */
+        padding: 0;
+    }
+    .timerBox{
+        background-color: white;
+    }
+}
+@media (max-width: 1999.99px) and (min-width: 992px){
+    .mainContainer{
+        width: 210px;
+    }
+    .timerContainer{
+        /* background-color: green; */
+        padding: 0;
+    }
+    .timerBox{
+        background-color: white;
+    }
+
+}
+@media (max-width: 1399.99px) and (min-width: 1200px){
+    .mainContainer{
+        width: 250px;
+    }
+    .timerContainer{
+        /* background-color: rebeccapurple; */
+        padding: 0;
+    }
+    .timerBox{
+        background-color: white;
+    }
+}
+@media (min-width: 1400px){
+    .mainContainer{
+        width: 280px;   
+    }
+    .timerContainer{
+        /* background-color: gray; */
+    }
+    .timerBox{
+        background-color: white;
+    }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "C-500 Antioxidant Protect Dietary Supplement",
+    "price": {
+      "original": 28.99,
+      "discounted": 14.99
+    },
+    "currency": "USD",
+    "category": "Supplements",
+    "label": "New",
+    "rating": {
+      "average": 4.8,
+      "stars": 4.8,
+      "reviewCount": 17000
+    },
+    "seller": {
+      "name": "Lucky Supermarket",
+      "logo": "bi-shop-window",
+      "bgColor": "bg-success",
+      "textColor": "text-white"
+    },
+    "image": "RecommendedVegetable1",
+    "buttonLabel": "Add To Cart",
+    "buttonIcon": "bi-cart4"
+  },
+  {
+    "id": 2,
+    "name": "Marcel's Modern Pantry Almond Unsweetened",
+    "price": {
+      "original": 28.99,
+      "discounted": 14.99
+    },
+    "currency": "USD",
+    "category": "Almonds",
+    "label": "Sale 50%",
+    "rating": {
+      "average": 4.8,
+      "stars": 4.8,
+      "reviewCount": 17000
+    },
+    "seller": {
+      "name": "Lucky Supermarket",
+      "logo": "bi-shop-window",
+      "bgColor": "bg-success",
+      "textColor": "text-white"
+    },
+    "image": "RecommendedVegetable1",
+    "buttonLabel": "Add To Cart",
+    "buttonIcon": "bi-cart4"
+  },
+  {
+    "id": 3,
+    "name": "O Organics Milk, Whole, Vitamin D",
+    "price": {
+      "original": 28.99,
+      "discounted": 14.99
+    },
+    "currency": "USD",
+    "category": "Dairy",
+    "label": "Best Sale",
+    "rating": {
+      "average": 4.8,
+      "stars": 4.8,
+      "reviewCount": 17000
+    },
+    "seller": {
+      "name": "Lucky Supermarket",
+      "logo": "bi-shop-window",
+      "bgColor": "bg-success",
+      "textColor": "text-white"
+    },
+    "image": "RecommendedVegetable1",
+    "buttonLabel": "Add To Cart",
+    "buttonIcon": "bi-cart4"
+  },
+  {
+    "id": 4,
+    "name": "Whole Grains and Seeds Organic Bread",
+    "price": {
+      "original": 28.99,
+      "discounted": 14.99
+    },
+    "currency": "USD",
+    "category": "Dairy",
+    "rating": {
+      "average": 4.8,
+      "stars": 4.8,
+      "reviewCount": 17000
+    },
+    "seller": {
+      "name": "Lucky Supermarket",
+      "logo": "bi-shop-window",
+      "bgColor": "bg-success",
+      "textColor": "text-white"
+    },
+    "image": "RecommendedVegetable1",
+    "buttonLabel": "Add To Cart",
+    "buttonIcon": "bi-cart4"
+  }
+]

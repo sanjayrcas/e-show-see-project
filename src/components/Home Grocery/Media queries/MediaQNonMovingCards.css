@@ -1,0 +1,111 @@
+@media (max-width: 575.99px){
+    .nonMovingCardMain{
+        /* background-color: darkorange; */
+    }  
+    .nonMovingImgContainer .nonImg{
+        /* background-color: red; */
+        height: 190px;
+        margin-bottom: 20px;
+    } 
+    .nonTitleDiv{
+        /* background-color: blue; */
+        width: 220px;
+        position: absolute;
+        top: 25px;
+        left: 30px;
+    }
+    .nonTitleText{
+        font-size: 22px;
+    }
+    .nonButtonDiv{
+        position: absolute;
+        top: 120px;
+        left: 30px;
+    }
+}
+@media (max-width: 767.99px) and (min-width: 576px){
+    .nonMovingCardMain{
+        /* background-color: red; */
+    }
+    .nonMovingImgContainer .nonImg{
+        /* background-color: red; */
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .nonTitleDiv{
+        /* background-color: blue; */
+        width: 220px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nonTitleText{
+        font-size: 22px;
+    }
+    .nonButtonDiv{
+        position: absolute;
+        top: 130px;
+        left: 30px;
+    }
+}
+@media (max-width: 991.99px) and (min-width: 768px){
+    .nonMovingCardMain{
+        /* background-color: blue; */
+    }
+    .nonMovingImgContainer .nonImg{
+        /* background-color: red; */
+        height: 235px;
+        margin-bottom: 20px;
+    }
+    .nonTitleDiv{
+        /* background-color: blue; */
+        width: 220px;
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+    .nonTitleText{
+        font-size: 22px;
+    }
+    .nonButtonDiv{
+        position: absolute;
+        top: 140px;
+        left: 30px;
+    }
+}
+@media (max-width: 1199.99px) and (min-width: 992px){
+    .nonMovingCardMain{
+        /* background-color: green; */
+    }
+    .nonMovingImgContainer .nonImg{
+        /* background-color: red; */
+        height: 270px;
+        margin-bottom: 20px;
+
+    }
+    .nonTitleDiv{
+        /* background-color: blue; */
+        width: 210px;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+    .nonTitleText{
+        font-size: 22px;
+    }
+    .nonButtonDiv{
+        position: absolute;
+        top: 160px;
+        left: 30px;
+    }
+}
+@media (max-width: 1399.99px) and (min-width: 1200px){
+    .nonMovingCardMain{
+        /* background-color: rebeccapurple; */
+    }
+}
+@media (min-width: 1400px){
+    .nonMovingCardMain{
+        /* background-color: gray; */
+    }
+}

@@ -1,0 +1,207 @@
+@media (max-width: 575.99px){
+    .BuyingItemsMainContainer{
+        /* background-color: orange; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 250px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .addCartBtn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* sm - 1 */
+@media (max-width: 649.99px) and (min-width: 576px){
+    .BuyingItemsMainContainer{
+        /* background-color: red; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 180px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .addCartBtn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* sm - 2 */
+@media (max-width: 767.99px) and (min-width: 650px){
+    .BuyingItemsMainContainer{
+        /* background-color: red; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 205px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .addCartBtn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* md - 1 */
+@media (max-width: 810.99px) and (min-width: 768px){
+    .BuyingItemsMainContainer{
+        /* background-color: blue; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 240px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .addCartBtn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* md - 2 */
+@media (max-width: 991.99px) and (min-width: 811px){
+    .BuyingItemsMainContainer{
+        /* background-color: blue; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 265px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .addCartBtn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+@media (max-width: 1999.99px) and (min-width: 992px){
+    .BuyingItemsMainContainer{
+        /* background-color: green; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 235px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .addCartBtn{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* xl - 1 */
+@media (max-width: 1303.99px) and (min-width: 1200px){
+    .BuyingItemsMainContainer{
+        /* background-color: rebeccapurple; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 280px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 150px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 120px;
+    }
+}
+/* xl - 2 */
+@media (max-width: 1399.99px) and (min-width: 1304px){
+    .BuyingItemsMainContainer{
+        /* background-color: rebeccapurple; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 310px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 150px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 120px;
+    }
+}
+@media (max-width: 1580.99px) and (min-width: 1400px){
+    .BuyingItemsMainContainer{
+        /* background-color: gray; */
+    }
+    .BuyingItemsMainContainer .cardContainerBox{
+        width: 310px;
+    }
+    .cardContainerBox .imgContainerCard{
+        /* background-color: red; */
+        height: 150px;
+        overflow: hidden;
+    }
+    .vegetable1{
+        position: relative;
+        width: 120px;
+    }
+}

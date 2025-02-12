@@ -1,0 +1,116 @@
+.RecommendedForYouMain{
+    /* background-color: aqua; */
+}
+.RecommendedForYouMainContainer{
+    /* background-color: rebeccapurple; */
+    max-width: 1680px;
+}
+.RecommendForYou{
+    color: #121536;
+}
+.RecommendedBtnContainer{
+    /* background-color: red; */
+  
+}
+.RecommendedBtnContainer 
+.RecommendedBtn {
+    color: #828282;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-style: none;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    background-color: white;
+}
+.RecommendedBtn:hover{
+    color: #299e60;
+}
+.RecommendedRow{
+    /* background-color: rebeccapurple; */
+}
+.RecommendedForYouMainContainer .RecommendedCardContainerBox{
+    /* background-color: red; */
+    width: 310px;
+    border-style: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+}
+.RecommendedCardContainerBox .RecommendedImgContainerCard{
+    /* background-color: red; */
+    height: 170px;
+}
+.RecommendedVegetable1{
+    /* background-color: red; */
+    position: relative;
+}
+/* New */
+.RecommendedNew{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 13px;
+    border-style: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* sale 50% */
+.RecommendedSaleOff{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    border-style: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* Best Sale */
+.RecommendedBestSale{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    border-style: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.RecommendedCardContainerBox:hover{
+    border-color: #299e60;
+    transition: 0.4s ease;
+}
+.RecommendedCardContainerBox:hover .RecommendedVegetable1{
+    transform: scale(1.2);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.RecommendedAddCartBtnContainer{
+    text-align: center;
+}
+.RecommendedAddCartBtn{
+    background-color: #e6faef;
+    margin-bottom: 20px;
+    color: #4fb07c;
+    font-size: 12px;
+}
+.RecommendedAddCartBtn:hover{
+    background-color: #299e60;
+    color: white;
+    transition: 0.4s ease;
+}
+.RecommendedRatings{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.AntioxidantProtect:hover{
+    color: #299e60;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.RecommendedByLuckySupermarket{
+    font-size: 11px;
+}

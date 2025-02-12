@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* navbar2 */
+#navbar2{
+    background-color: #f3faf2;
+    /* background-color: red; */
+    padding: 0;
+}
+/* navbar container */
+#navbarContainer{
+    /* background-color: yellow; */
+    background-color: #f3faf2;
+    max-width: 1680px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* logo container */
+.logo-container{
+    width: 210px;
+    /* background-color: red; */
+}
+/* logo image */
+.logo-container #MarketProLogo{
+    width: 210px;
+    height: 50px;
+    /* background-color: rebeccapurple; */
+}
+/* allCategories and search container */
+.allCategoriesAndSearch{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* all categories button */
+.AllCategoriesBtn1{
+    border: none;
+    color: #555955;
+    border: 1px solid #cccccc;
+    padding: 10px 10px 10px 10px;
+    background-color: #f3faf2;
+    /* background-color: #0f5e5e; */
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+}
+/* all categories angle down icon */
+#faAngleDown{
+    margin: 0px 0px 0px 3px;
+    color: #989ea6;
+}
+/* drop down menu ul 1 */
+.dropdownMenuUl{
+    width: 230px;
+    height: 265px;
+    /* background-color: gray; */
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: #888 #e3e3e3;
+    
+}
+/* list box in input */
+.listBoxInput{
+    /* background-color: green; */
+    width: 225px;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+/* input box */
+.listInput{
+    background-color: white;
+    /* background-color: red; */
+    border: 2px solid #e6e6e6;
+    outline-color: #b2edb2;
+    border-radius: 6px;
+    width: 210px;
+    height: 35px;
+}
+/* all categories list */
+#allCgList{
+    /* background-color: red; */
+    width: 220px;
+    margin: 2px 5px 0px 5px;
+}
+/* all categories link */
+#allCgLink{
+    color: #949799;
+    margin-top: 1px;
+    /* font-size: 11px; */
+    /* background-color: red; */
+}
+#allCgLink:hover{
+    color: #299e60;
+    background-color: #cef2df;
+    border-radius: 5px;
+}
+/* container for search for product */
+.searchProductContainer{
+    /* background-color: #0f5e5e; */
+    border: none;
+    border: 1px solid #cccccc;
+    background-color: #f3faf2;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    margin: 0px 0px 0px -1px;
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* search input box */
+#searchInputbox{
+    border: none;
+    background-color: transparent;
+    /* background-color: red; */
+    color: #9e9b91;
+    width: 120px;
+    margin: 0px 3px 0px 15px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+}
+/* search icon container */
+.searchIconContainer{
+    /* background-color: skyblue; */
+    margin: 0px 5px 0px 0px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+/* faMagnifyingGlass icon link */
+.faMagnifyingLink{
+    background-color: #299e60;
+    padding: 2px 0px 2px 0px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+/* faMagnifyingGlass icon */
+.faMagnifyingGlass{
+    /* background-color: red; */
+    color: white;
+    font-size: 18px;
+}
+/*  your location container */
+.yourLocationContainer{
+    /* background-color: #0f5e5e; */
+    border: 1px solid #cccccc;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* your Location Icons */
+#faLocationIcons{
+    /* background-color: chartreuse; */
+    font-size: 20px;
+    margin: 0px 0px 0px 5px;
+}
+/* span container */
+#spanContainer-yourLocation{
+    width: 75px;
+    height: 44px;
+    /* background-color: chocolate; */
+    margin: 0px 10px 0px 5px;
+    position: relative;
+}
+/* span your location */
+#spanYourLocation{
+    /* background-color: red; */
+    color: #979997;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+}
+/* alabama btn */
+.alabamaBtn{
+    /* background-color: white; */
+    color: #1a1a1a;
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    height: 20px;
+}
+/* dropdown menu ul container */
+#alabamaUL{
+    width: 200px;
+    height: 250px;
+    /* background-color: gray; */
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: #888 #e3e3e3;
+}
+/* alabama li */
+#alabamaLI{
+    /* background-color: red; */
+    border-radius: 10px;   
+    margin-top: 2px;
+    width: 160px;
+    margin: 2px 5px;
+}
+/* alabama link */
+#alabamaLink{
+    color: #949799;
+}
+/* alabama link hover */
+#alabamaLink:hover{
+    color: #299e60;
+    background-color: #cef2df;
+    border-radius: 5px;
+}
+/* fa angle down icon your location*/
+.faAngleDownBtnIcon{
+    /* background-color: aqua; */
+    font-size: 20px;
+    margin: 0px 5px 0px 5px;
+}
+/* wishlist and cart container */
+.wishlistAndCartContainer{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/* wishlist list */
+#wishlistList{
+    /* background-color: aqua; */
+    padding: 5px 0px 5px 0px;
+}
+/* wishlist link */
+#wishlistLink{
+    /* background-color: chocolate; */
+    font-size: 15px;
+    padding: 13px 6px 10px 6px;
+    color: #848096;
+}
+/* wishlist icon */
+#wishlistIcon{
+    font-size: 20px;
+    margin: 0px 5px 0px 0px;
+    color: #4d5b87;
+    /* background-color: skyblue; */
+}
+/* span count 1 for wishlist */
+.spanCount1{
+    background-color: #299e60;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    right: 120px;
+    z-index: 1;
+}
+#wishlistLink:hover{
+    color: #299e60;
+    transition: 0.4s ease;
+}
+#wishlistLink:hover #wishlistIcon{
+    color: #299e60;
+    transition: 0.4s ease;
+}
+#cartLink:hover{
+    color: #299e60;
+    transition: 0.4s ease;
+}
+#cartLink:hover #cartIcon{
+    color: #299e60;
+    transition: 0.4s ease;
+}
+/* cart list */
+#cartList{
+    /* background-color: brown; */
+    padding: 5px 0px 5px 0px;
+}
+/* cart link */
+#cartLink{
+    /* background-color: chartreuse; */
+    font-size: 15px;
+    padding: 13px 6px 10px 6px;
+    color: #848096;
+}
+/* cart icon */
+#cartIcon{
+    font-size: 20px;
+    margin: 0px 5px 0px 0px;
+    color: #4d5b87; 
+}
+/* span count 1 for wishlist */
+.spanCount2{y: ;
+    background-color: #299e60;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    z-index: 1;
+}

@@ -1,0 +1,233 @@
+/* media queries navbar 3 for xSM */
+@media (max-width: 575.98px){
+    /* dropdown link */
+    #dropdownlinks{
+        display: none;
+    }
+    /* itemsContainer */
+    .itemsContainer{
+        display: none;
+    }
+    /* contact button with number */
+    .contactBtnNumber{
+        display: none;
+    }
+    /* wishlist And Cart Container Nav-3 */
+    .wishlistAndCartContainerNav-3{
+        /* background-color: rebeccapurple; */
+        display: flex;
+        align-items: center;
+        /* width: 190px; */
+        height: 50px;
+        font-size: 17px; 
+        position: absolute;
+        right: 5px; 
+    }
+    /* search Icon Nav-3 hover*/
+    #searchIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+    /* wishlist icon nav-3 hover */
+    #wishlistIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+    /* cart icon nav-3 hover */
+    #cartIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+}
+/* media queries navbar 3 for SM */
+@media (max-width: 767.98px) and (min-width: 576px){
+    /* dropdown link */
+    #dropdownlinks{
+        display: none;
+    }
+    /* itemsContainer */
+    .itemsContainer{
+        display: none;
+    }
+    /* contact button with number */
+    .contactBtnNumber{
+        display: none;
+    }
+    /* wishlist And Cart Container Nav-3 */
+    .wishlistAndCartContainerNav-3{
+        /* background-color: rebeccapurple; */
+        display: flex;
+        align-items: center;
+        /* width: 190px; */
+        height: 50px;
+        font-size: 17px; 
+        position: absolute;
+        right: 10px; 
+    }
+    /* search Icon Nav-3 hover*/
+    #searchIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+    /* wishlist icon nav-3 hover */
+    #wishlistIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+    /* cart icon nav-3 hover */
+    #cartIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+}
+/* media queries navbar 3 for MD */
+@media (max-width: 991.98px) and (min-width: 768px){
+    /* dropdown link */
+    #dropdownlinks{
+        display: none;
+    }
+    /* itemsContainer */
+    .itemsContainer{
+        display: none;
+    }
+    /* contact button with number */
+    .contactBtnNumber{
+        display: none;
+    }
+    /* wishlist And Cart Container Nav-3 */
+    .wishlistAndCartContainerNav-3{
+        /* background-color: rebeccapurple; */
+        display: flex;
+        /* align-items: center; */
+        /* width: 190px; */
+        height: 50px;
+        font-size: 17px; 
+        position: absolute;
+        right: 10px; 
+    }
+    /* search Icon Nav-3 hover*/
+    #searchIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+    /* wishlist icon nav-3 hover */
+    #wishlistIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+    /* span count 1 for wishlist Nav-3 */
+    .spanCount1Nav-3{
+        /* background-color: red; */
+        text-align: center;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 7px;
+        right: 95px;
+        z-index: 1;
+    }
+    /* cart icon nav-3 hover */
+    #cartIconNav-3:hover{
+        color: #299e60;
+        transition: 0.4s ease;
+    }
+    /* span count 1 for cart Nav-3 */
+    .spanCount2Nav-3{
+        /* background-color: blue; */
+        text-align: center;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 7px;
+        right: 50px;
+        z-index: 1;
+    }
+
+}
+/* media queries navbar 3 for LG */
+@media(max-width: 1199.98px) and (min-width: 992px){
+    /* wishlist And Cart Container Nav 3 */
+    .wishlistAndCartContainerNav-3{
+        display: none;
+    }
+    /* contact button with number */
+    .contactBtnNumber{
+        /* background-color: rgb(255, 157, 0); */
+        position: absolute;
+        right: 10px;
+    }
+    /* contact Btn Link */
+    #contactBtnLink{
+        background-color: #299e60;
+        color: white;
+        padding: 13px 13px;
+        font-size: 17px;
+    }
+}
+/* media queries navbar 3 for XL */
+@media(max-width: 1399.98px) and (min-width: 1200px){
+    .wishlistAndCartContainerNav-3{
+        display: none;
+    }
+     #itemsLink{
+        /* background-color: red; */
+        padding: 15px 0px 15px 25px;
+    }
+    #itemsLinkContact{
+        /* background-color: blue; */
+        color: #989d9e;
+        /* width: 100px; */
+        height: 50px;
+        font-size: 13px;
+        padding: 15px 5px 15px 20px; 
+    }
+    /* contact button with number */
+    .contactBtnNumber{
+        /* background-color: rgb(255, 157, 0); */
+        position: absolute;
+        right: 10px;
+    }
+    /* contact Btn Link */
+    #contactBtnLink{
+        background-color: #299e60;
+        color: white;
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+}
+/* media queries navbar 3 for XLL and Above */
+@media(min-width: 1400px){
+    .wishlistAndCartContainerNav-3{
+        display: none;
+    }
+    #itemsLink{
+        /* background-color: red; */
+        padding: 15px 0px 15px 30px;
+        font-size: 15px;
+    }
+    #itemsLinkContact{
+        /* background-color: blue; */
+        color: #989d9e;
+        /* width: 100px; */
+        height: 50px;
+        font-size: 15px;
+        padding: 15px 5px 15px 30px; 
+    }
+    /* contact button with number */
+    .contactBtnNumber{
+        /* background-color: rgb(255, 157, 0); */
+        position: absolute;
+        right: 15px;
+    }
+    /* contact Btn Link */
+    #contactBtnLink{
+        background-color: #299e60;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}

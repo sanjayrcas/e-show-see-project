@@ -1,0 +1,184 @@
+/* sm - 1 */
+@media (max-width: 689.99px) and (min-width: 576px) {
+    .OffYourFirstOrderMain{
+        /* background-color: red; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 280px;
+        height: 230px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+    .OffYourFirstOrderBox .OffYourFirstOrderBoxBg{
+        height: 230px;
+    }
+}
+/* sm - 2 */
+@media (max-width: 767.99px) and (min-width: 690px) {
+    .OffYourFirstOrderMain{
+        /* background-color: red; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 340px;
+        height: 230px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+    .OffYourFirstOrderBox .OffYourFirstOrderBoxBg{
+        height: 230px;
+    }
+}
+/* md - 1 */
+@media (max-width: 907.99px) and (min-width: 768px) {
+    .OffYourFirstOrderMain{
+        /* background-color: blue; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 380px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+    .OffYourFirstOrderDataContainer{
+        height: 260px;
+    }
+    .OffYourFirstOrderDataContainer .offerLogoContainer{
+        position: relative;
+        top: 25px;
+    }
+    .OffYourFirstOrderDataContainer .offYourFirstOrderText1{
+        margin-top: 35px;
+    }
+}
+/* md - 2 */
+@media (max-width: 991.99px) and (min-width: 908px) {
+    .OffYourFirstOrderMain{
+        /* background-color: blue; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 440px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+    .OffYourFirstOrderDataContainer{
+        height: 260px;
+    }
+    .OffYourFirstOrderDataContainer .offerLogoContainer{
+        position: relative;
+        top: 25px;
+    }
+    .OffYourFirstOrderDataContainer .offYourFirstOrderText1{
+        margin-top: 35px;
+    }
+}
+/* lg - 1 */
+@media (max-width: 1139.99px) and (min-width: 992px){
+    .OffYourFirstOrderMain{
+        /* background-color: green; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 490px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+    .OffYourFirstOrderContainer .OffYourFirstOrderBackground1{
+        width: 200px;
+    }
+    .OffYourFirstOrderContainer .OffYourFirstOrderBackground2{
+        width: 200px;
+    }
+    .OffYourFirstOrderDataContainer .offYourFirstOrderText1{
+        font-size: 25px;
+    }
+}
+/* lg - 2 */
+@media (max-width: 1999.99px) and (min-width: 1140px) {
+    .OffYourFirstOrderMain{
+        /* background-color: green; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 560px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+    .OffYourFirstOrderContainer .OffYourFirstOrderBackground1{
+        width: 230px;
+    }
+    .OffYourFirstOrderContainer .OffYourFirstOrderBackground2{
+        width: 230px;
+    }
+}
+/* xl - 1 */
+@media (max-width: 1307.99px) and (min-width: 1200px) {
+    .OffYourFirstOrderMain{
+        /* background-color: rebeccapurple; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 590px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+}
+/* xl - 2 */
+@media (max-width: 1399.99px) and (min-width: 1308px) {
+    .OffYourFirstOrderMain{
+        /* background-color: rebeccapurple; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 650px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+}
+/* xxl - 1 */
+@media (max-width: 1547.99px) and (min-width: 1400px) {
+    .OffYourFirstOrderMain{
+        /* background-color: gray; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 690px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+}
+/* xxl - 2 */
+@media (max-width: 1679.99px) and (min-width: 1548px) {
+    .OffYourFirstOrderMain{
+        /* background-color: gray; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 770px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+}
+/* above xxl */
+@media (min-width: 1680px){
+    .OffYourFirstOrderMain{
+        /* background-color: yellow; */
+    }
+    .OffYourFirstOrderRow1 .OffYourFirstOrderBox{
+        width: 800px;
+        height: 260px;
+        background-color: #299e60;
+        overflow: hidden;
+        position: relative;
+    }
+}

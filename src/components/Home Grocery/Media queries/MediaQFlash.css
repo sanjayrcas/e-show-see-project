@@ -1,0 +1,287 @@
+@media (max-width: 575.99px){
+    .flashContainerFluid .slick-prev{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 0; */
+        transform: translateX(87vw) translateY(-185px);
+    }
+    .flashContainerFluid .slick-next{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 100px; */
+        transform: translateX(-5vw) translateY(-185px);
+    }
+    .flashContainerFluid .slick-prev::before{
+        /* background-color: blue; */
+        color: #299e60 !important;
+        border-radius: 50%;
+        font-size: 30px !important ;
+        margin-left: -5px;
+    }
+    .flashContainerFluid .slick-next::before{
+        /* background-color: blue; */
+        font-size: 30px !important ;
+        color: #299e60 !important;
+        border-radius: 50%;
+        margin-right: -80px;
+    }
+    .flashSalesContainer .flashBgContainer{
+        margin: 0px 0px;
+        height: 200px;
+    }
+    .flashBgContainer .flashBgImage{
+        height: 200px;
+        border-radius: 10px;
+    }
+    .flashBgContainer .flashImgContainer{
+        display: none;
+    }
+    .flashBgContainer .flashDataContainer {
+        /* background-color: yellow; */
+        margin: 40px 50px;
+    }
+    .flashBgContainer .flashTitle{
+        /* background-color: blue; */
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .flashButton{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 767.99px) and (min-width: 576px){
+    .flashContainerFluid .slick-prev{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 0; */
+        transform: translateX(91vw) translateY(-190px);
+    }
+    .flashContainerFluid .slick-next{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 100px; */
+        transform: translateX(-3vw) translateY(-190px);
+    }
+    .flashContainerFluid .slick-prev::before{
+        /* background-color: blue; */
+        color: #299e60 !important;
+        border-radius: 50%;
+        font-size: 35px !important ;
+        margin-left: -20px;
+    }
+    .flashContainerFluid .slick-next::before{
+        /* background-color: blue; */
+        font-size: 35px !important ;
+        color: #299e60 !important;
+        border-radius: 50%;
+        margin-right: -70px;
+    }
+    .flashSalesContainer .flashBgContainer{
+        margin: 0px 0px;
+        height: 250px;
+    }
+    .flashBgContainer .flashBgImage{
+        display: block;
+        height: 250px;
+    }
+    .flashBgContainer .flashImgContainer{
+        /* background-color: red; */
+        margin: 40px 0px 40px 40px;
+    }
+    .flashImgContainer .flashImg{
+        width: 300px;
+    }
+    .flashBgContainer .flashDataContainer {
+        /* background-color: yellow; */
+        margin: 40px 0px 40px 0px;
+    }
+    .flashBgContainer .flashTitle{
+        margin-left: -10px;
+        /* background-color: blue; */
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .flashButton{
+        margin-top: 30px;
+    }
+
+}
+@media (max-width: 991.99px) and (min-width: 768px){
+    .flashSalesContainer .flashBgContainer{
+        margin: 0px 0px;
+        height: 250px;
+    }
+    .flashBgContainer .flashBgImage{
+        margin-left: 30px;
+        height: 250px;
+    }
+    .flashBgContainer .flashImgContainer{
+        /* background-color: red; */
+        margin: 40px 0px 40px 40px;
+    }
+    .flashImgContainer .flashImg{
+        width: 300px;
+    }
+    .flashBgContainer .flashDataContainer {
+        /* background-color: yellow; */
+        margin: 40px 0px 40px 100px;
+    }
+    .flashBgContainer .flashTitle{
+        margin-left: -10px;
+        /* background-color: blue; */
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .flashButton{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1199.99px) and (min-width: 992px){
+    .flashBgContainer{
+        height: 250px;
+    }
+    .flashBgContainer .flashBgImage{
+        height: 250px;
+    }
+    .flashBgContainer .flashImgContainer{
+        /* background-color: red; */
+        margin: 40px 0px 40px 40px;
+    }
+    .flashImgContainer .flashImg{
+        width: 250px;
+    }
+    .flashBgContainer .flashDataContainer {
+        /* background-color: yellow; */
+        margin: 40px 0px 40px 0px;
+    }
+    .flashBgContainer .flashTitle{
+        margin-left: -10px;
+        /* background-color: blue; */
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .flashButton{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1399.99px) and (min-width: 1200px){
+    .flashContainerFluid .slick-prev{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 0; */
+        transform: translateX(91vw) translateY(-190px);
+    }
+    .flashContainerFluid .slick-next{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 100px; */
+        transform: translateX(-3vw) translateY(-190px);
+    }
+    .flashContainerFluid .slick-prev::before{
+        /* background-color: blue; */
+        color: #299e60 !important;
+        border-radius: 50%;
+        font-size: 35px !important ;
+        margin-left: -20px;
+    }
+    .flashContainerFluid .slick-next::before{
+        /* background-color: blue; */
+        font-size: 35px !important ;
+        color: #299e60 !important;
+        border-radius: 50%;
+        margin-right: -70px;
+    }
+    .flashSalesContainer .flashBgContainer{
+        margin: 0px 0px;
+        height: 250px;
+    }
+    .flashBgContainer .flashBgImage{
+        display: block;
+        height: 250px;
+    }
+    .flashBgContainer .flashImgContainer{
+        /* background-color: red; */
+        margin: 40px 0px 40px 40px;
+    }
+    .flashImgContainer .flashImg{
+        width: 300px;
+    }
+    .flashBgContainer .flashDataContainer {
+        /* background-color: yellow; */
+        margin: 40px 0px 40px 0px;
+    }
+    .flashBgContainer .flashTitle{
+        margin-left: -10px;
+        /* background-color: blue; */
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .flashButton{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1700px) and (min-width: 1400px){
+    .flashContainerFluid .slick-prev{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 0; */
+        transform: translateX(93vw) translateY(-190px);
+    }
+    .flashContainerFluid .slick-next{
+        /* background-color: red; */
+        position: absolute;
+        /* top: 140px; */
+        /* right: 100px; */
+        transform: translateX(-3vw) translateY(-190px);
+    }
+    .flashContainerFluid .slick-prev::before{
+        /* background-color: blue; */
+        color: #299e60 !important;
+        border-radius: 50%;
+        font-size: 35px !important ;
+        margin-left: -10px;
+    }
+    .flashContainerFluid .slick-next::before{
+        /* background-color: blue; */
+        font-size: 35px !important ;
+        color: #299e60 !important;
+        border-radius: 50%;
+        margin-right: -80px;
+    }
+    .flashSalesContainer .flashBgContainer{
+        margin: 0px 0px;
+        height: 250px;
+    }
+    .flashBgContainer .flashBgImage{
+        display: block;
+        height: 250px;
+    }
+    .flashBgContainer .flashImgContainer{
+        /* background-color: red; */
+        margin: 40px 0px 40px 40px;
+    }
+    .flashImgContainer .flashImg{
+        width: 300px;
+    }
+    .flashBgContainer .flashDataContainer {
+        /* background-color: yellow; */
+        margin: 40px 0px 40px 100px;
+    }
+    .flashBgContainer .flashTitle{
+        margin-left: -10px;
+        /* background-color: blue; */
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .flashButton{
+        margin-top: 30px;
+    }
+}

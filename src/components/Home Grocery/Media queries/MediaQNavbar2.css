@@ -1,0 +1,598 @@
+/* MEDIA QUERIES FOR NAVBAR 2  */
+/* media queries Navbar 1 for XSM */
+@media (max-width: 575px){
+    /* logo container */
+    .logo-container{
+        width: 130px;
+        height: 40px;
+        /* background-color: red; */
+    }
+    /* logo image */
+    #MarketProLogo{
+        width: 130px;
+        height: 40px !important;
+        /* background-color: blue; */
+    }
+    /* container for search for product */
+    .searchProductContainer{
+        display: none;
+    }
+    /* navbar container */
+    #navbarContainer{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        /* background-color: #4d5b87; */
+
+    }
+    /* all categories button */
+    .AllCategoriesBtn1{
+        display: none;
+    }
+    /*  your location container */
+    .yourLocationContainer{
+        /* background-color: #0f5e5e; */
+        width: 130px;
+        height: 40px;
+    }
+    /* your Location Icons */
+    #faLocationIcons{
+        /* background-color: chartreuse; */
+        width: 20px;
+        height: 20px;
+    }
+    /* span container */
+    #spanContainer-yourLocation{
+        /* background-color: chocolate; */
+        width: 65px;
+        height: 35px;
+        margin: 0px 15px 0px 5px;
+        position: relative;
+    }
+    /* span your location */
+    #spanYourLocation{
+        /* background-color: red; */
+        color: #979997;
+        font-size: 12px;
+        width: 75px;
+        top: 2px;
+    }
+    /* alabama btn */
+    .alabamaBtn{
+        font-size: 12px;
+        width: 50px;
+        height: 15px;
+        top: 17px;
+    }
+    /* alabama Dropdown Container */
+    #alabamaDropdownContainer{
+        position: absolute;
+        top: 36px;
+        right: 150px;
+    }
+    /* wishlist and cart container */
+    .wishlistAndCartContainer{
+        display: none;
+    }
+}
+
+
+/* media queries Navbar 1 for SM */
+@media (max-width: 767.98px) and (min-width: 576px){
+    /* container for search for product */
+    .searchProductContainer{
+        display: none;
+    }
+    /* navbar container */
+    #navbarContainer{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        /* background-color: gray; */
+    }
+    /* logo container */
+    .logo-container{
+        width: 200px;
+        /* background-color: red; */
+    }
+    /* logo image */
+    #MarketProLogo{
+        width: 200px;
+    }
+    /* all categories button */
+    .AllCategoriesBtn1{
+        width: 110px;
+        height: 40px;
+        font-size: 12px;
+        padding-left: 5px;
+        border-top-right-radius: 36px;
+        border-bottom-right-radius: 36px;
+    }
+    /* all Cg Dropdown */
+    #allCgDropdown{
+        position: absolute;
+        top: 48px;
+        right: 320px;
+    }
+    /* drop down menu ul 1 */
+    .dropdownMenuUl{
+        width: 160px;
+        height: 265px;
+    }
+    /* list box in input */
+    .listBoxInput{
+        /* background-color: rgb(163, 34, 34); */
+        width: 190px; 
+        text-align: center;
+        margin: 5px 0px 5px 0px;
+    }
+    /* input box */
+    .listInput{
+        width: 180px;
+        height: 35px;
+    }
+    /* all categories list */
+    #allCgList{
+        /* background-color: red; */
+        width: 150px;
+        margin: 2px 5px 0px 5px;
+    }
+    /* all categories link */
+    #allCgLink{
+        font-size: 11px;
+    }
+    #allCgLink:hover{
+        color: #299e60;
+        background-color: #cef2df;
+        border-radius: 5px;
+    }
+    /*  your location container */
+    .yourLocationContainer{
+        /* background-color: #0f5e5e; */
+        width: 140px;
+        height: 40px;
+    }
+    /* your Location Icons */
+    #faLocationIcons{
+        /* background-color: chartreuse; */
+        width: 20px;
+        height: 20px;
+    }
+    /* span container */
+    #spanContainer-yourLocation{
+        /* background-color: chocolate; */
+        width: 75px;
+        height: 35px;
+        margin: 0px 5px 0px 5px;
+        position: relative;
+    }
+    /* span your location */
+    #spanYourLocation{
+        /* background-color: red; */
+        color: #979997;
+        font-size: 12px;
+        width: 75px;
+        top: 2px;
+    }
+    /* alabama btn */
+    .alabamaBtn{
+        font-size: 12px;
+        width: 50px;
+        height: 15px;
+        top: 17px;
+    }
+    /* alabama Dropdown Container */
+    #alabamaDropdownContainer{
+        position: absolute;
+        top: 36px;
+        right: 160px;
+    }
+    /* wishlist and cart container */
+    .wishlistAndCartContainer{
+        display: none;
+    }
+}
+
+/* media queries Navbar 1 for MD */
+@media (max-width: 991.98px) and (min-width: 768px){
+    /* all categories button */
+    .AllCategoriesBtn1{
+        width: 110px;
+        height: 45px;
+        font-size: 12px;
+        padding-left: 5px;
+        border-top-right-radius: 36px;
+        border-bottom-right-radius: 36px;
+    }
+    /* container for search for product */
+    .searchProductContainer{
+        display: none;
+    }
+    /* wishlist and cart container */
+    .wishlistAndCartContainer{
+        display: none;
+    }
+    #navbarContainer{
+        /* background-color: crimson; */
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+     /* all Cg Dropdown */
+     #allCgDropdown{
+        position: absolute;
+        top: 54px;
+        right: 375px;
+    }
+    /* alabama Dropdown Container */
+    #alabamaDropdownContainer{
+        position: absolute;
+        top: 43px;
+        right: 155px;
+    }
+}
+/* media queries Navbar 1 for LG */
+@media (max-width: 1199.98px) and (min-width: 992px){
+    /* navbar container */
+    /* #navbarContainer{
+        background-color: red;
+    } */
+    /* logo-container  for navbar 2 */
+    .logo-container{
+        /* background-color: skyblue; */
+        width: 210px;
+    }
+    /* logo image */
+    #MarketProLogo{
+        width: 210px;
+    }
+    /* all categories button */
+    .AllCategoriesBtn1{
+        /* background-color: cornflowerblue; */
+        padding: 10px 10px 10px 10px;
+    }
+    /* all categories angle down icon */
+    #faAngleDown{
+        margin: 0px 0px 0px 3px;
+        color: #989ea6;
+    }
+    /* all Cg Dropdown */
+    #allCgDropdown{
+        position: absolute;
+        top: 64px;
+        left: 340px;
+    }
+    /* container for search for product */
+    .searchProductContainer{
+        /* background-color: cornflowerblue; */
+        padding: 8px 0px 8px 0px;
+    }
+    /* search input box */
+    #searchInputbox{
+        width: 120px;
+        font-size: 13px;
+        margin: 0px 3px 0px 15px;
+    }
+    /* search icon container */
+    /* .searchIconContainer{
+        background-color: skyblue;
+    } */
+    /* faMagnifyingGlass icon link */
+    .faMagnifyingLink{
+        /* background-color: chocolate; */
+        padding: 2px 0px 2px 0px;
+    }
+    /* faMagnifyingGlass icon */
+    .faMagnifyingGlass{
+        /* background-color: red; */
+        font-size: 18px;
+    }
+    /*  your location container */
+    /* .yourLocationContainer{
+        background-color: cornflowerblue;
+    } */
+    /* your Location Icons */
+    #faLocationIcons{
+        /* background-color: chartreuse; */
+        font-size: 20px;
+        margin: 0px 0px 0px 5px;  
+    }
+    /* span container */
+    #spanContainer-yourLocation{
+        width: 75px;
+        height: 44px;
+        /* background-color: chocolate; */
+        margin: 0px 10px 0px 5px;
+        position: relative;
+    }
+    /* span your location */
+    #spanYourLocation{
+        /* background-color: red; */
+        font-size: 12px;
+        position: absolute;
+        top: 5px; 
+    }
+    /* alabama btn */
+    .alabamaBtn{
+        /* background-color: white; */
+        color: #1a1a1a;
+        font-size: 15px;
+        position: absolute;
+        top: 20px;
+    }
+    /* alabama Dropdown Container */
+    #alabamaDropdownContainer{
+        position: absolute;
+        top: 43px;
+    }
+    /* fa angle down icon your location*/
+    .faAngleDownBtnIcon{
+        /* background-color: aqua; */
+        font-size: 20px;
+        margin: 0px 5px 0px 5px;
+    }
+}
+/* media queries Navbar 1 for XL */
+@media (max-width: 1399.98px) and (min-width: 1200px){
+     /* navbar container */
+     /* #navbarContainer{
+        background-color: pink;
+    } */
+    /* all categories button */
+    .AllCategoriesBtn1{
+        /* background-color: cornflowerblue; */
+        padding: 10px 20px 10px 20px;
+    }
+    /* all categories angle down icon */
+    #faAngleDown{
+        margin: 0px 0px 0px 10px;
+        color: #989ea6;
+    }
+    /* all Cg Dropdown */
+    #allCgDropdown{
+        position: absolute;
+        top: 64px;
+        left: 320px;
+    }
+    /* container for search for product */
+    .searchProductContainer{
+        /* background-color: cornflowerblue; */
+        padding: 8px 0px 8px 0px;
+    }
+    /* search input box */
+    #searchInputbox{
+        width: 210px;
+        font-size: 13px;
+        margin: 0px 5px 0px 20px;
+    }
+    /*  your location container */
+    /* .yourLocationContainer{
+        background-color: cornflowerblue;
+    } */
+    /* your Location Icons */
+    #faLocationIcons{
+        /* background-color: chartreuse; */
+        font-size: 20px;
+        margin: 0px 0px 0px 20px;  
+    }
+    /* span container */
+    #spanContainer-yourLocation{
+        width: 75px;
+        height: 44px;
+        /* background-color: chocolate; */
+        margin: 0px 15px 0px 10px;
+        position: relative;
+    }
+    /* fa angle down icon your location*/
+    .faAngleDownBtnIcon{
+        /* background-color: aqua; */
+        font-size: 20px;
+        margin: 0px 10px 0px 5px;
+    }
+    /* alabama Dropdown Container */
+    #alabamaDropdownContainer{
+        position: absolute;
+        top: 43px;
+    }
+    /* wishlist and cart container */
+    .wishlistAndCartContainer{
+        /* background-color: rebeccapurple; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    /* wishlist list */
+    #wishlistList{
+        /* background-color: aqua; */
+        padding: 5px 0px 5px 0px;
+    }
+    /* wishlist link */
+    #wishlistLink{
+        /* background-color: chocolate; */
+        font-size: 15px;
+        padding: 13px 15px 10px 15px;
+        color: #848096;
+    }
+    /* wishlist icon */
+    #wishlistIcon{
+        font-size: 20px;
+        /* color: #4d5b87;
+        background-color: skyblue; */
+    }
+    /* span count 1 for wishlist */
+    .spanCount1{
+        /* background-color: red; */
+        text-align: center;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 2px;
+        right: 150px;
+        z-index: 1;
+    }
+    /* cart list */
+    #cartList{
+        /* background-color: brown; */
+        padding: 5px 0px 5px 0px;
+
+    }
+    /* cart link */
+    #cartLink{
+        /* background-color: chartreuse; */
+        /* color: #848096; */
+        font-size: 15px;
+        padding: 13px 15px 10px 15px;
+    }
+    /* cart icon */
+    #cartIcon{
+        font-size: 20px;
+        color: #4d5b87; 
+    }
+    /* span count 1 for wishlist */
+    .spanCount2{
+        /* background-color: blue; */
+        text-align: center;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 2px;
+        right: 45px;
+        z-index: 1;
+    }
+}
+/* media queries Navbar 1 for XLL */
+@media(min-width: 1400px){
+     /* navbar container */
+     /* #navbarContainer{
+        background-color: burlywood;
+    } */
+    /* all categories button */
+    .AllCategoriesBtn1{
+        /* background-color: cornflowerblue; */
+        padding: 10px 20px 10px 20px;
+    }
+    /* all categories angle down icon */
+    #faAngleDown{
+        margin: 0px 0px 0px 10px;
+        color: #989ea6;
+    }
+    /* all Cg Dropdown */
+    #allCgDropdown{
+        position: absolute;
+        top: 64px;
+        left: 335px;
+    }
+    /* container for search for product */
+    .searchProductContainer{
+        /* background-color: cornflowerblue; */
+        padding: 8px 0px 8px 0px;
+    }
+    /* search input box */
+    #searchInputbox{
+        width: 450px;
+        font-size: 13px;
+        margin: 0px 5px 0px 20px;
+    }
+    /*  your location container */
+    .yourLocationContainer{
+        /* background-color: cornflowerblue; */
+        margin: 0px 0px 0px 15px;
+    }
+    /* your Location Icons */
+    #faLocationIcons{
+        /* background-color: chartreuse; */
+        font-size: 20px;
+        margin: 0px 0px 0px 20px;  
+    }
+    /* span container */
+    #spanContainer-yourLocation{
+        width: 75px;
+        height: 44px;
+        /* background-color: chocolate; */
+        margin: 0px 15px 0px 10px;
+        position: relative;
+    }
+    /* fa angle down icon your location*/
+    .faAngleDownBtnIcon{
+        /* background-color: aqua; */
+        font-size: 20px;
+        margin: 0px 10px 0px 5px;
+    }
+    /* alabama Dropdown Container */
+    #alabamaDropdownContainer{
+        position: absolute;
+        top: 43px;
+    }
+    /* wishlist and cart container */
+    .wishlistAndCartContainer{
+        /* background-color: rebeccapurple; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    /* wishlist list */
+    #wishlistList{
+        /* background-color: aqua; */
+        padding: 5px 0px 5px 0px;
+    }
+    /* wishlist link */
+    #wishlistLink{
+        /* background-color: chocolate; */
+        font-size: 15px;
+        padding: 12px 15px 11px 15px;
+        color: #848096;
+    }
+    /* wishlist icon */
+    #wishlistIcon{
+        font-size: 20px;
+        /* color: #4d5b87;
+        background-color: skyblue; */
+    }
+    /* span count 1 for wishlist */
+    .spanCount1{
+        /* background-color: red; */
+        text-align: center;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 1px;
+        right: 147px;
+        z-index: 1;
+    }
+    /* cart list */
+    #cartList{
+        /* background-color: brown; */
+        padding: 5px 0px 5px 0px;
+
+    }
+    /* cart link */
+    #cartLink{
+        /* background-color: chartreuse; */
+        /* color: #848096; */
+        font-size: 15px;
+        padding: 13px 15px 11px 15px;
+    }
+    /* cart icon */
+    #cartIcon{
+        font-size: 20px;
+        color: #4d5b87; 
+    }
+    /* span count 1 for wishlist */
+    .spanCount2{
+        /* background-color: blue; */
+        text-align: center;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 1px;
+        right: 45px;
+        z-index: 1;
+    }
+}

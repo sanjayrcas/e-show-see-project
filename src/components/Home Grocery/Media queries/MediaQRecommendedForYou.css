@@ -1,0 +1,272 @@
+@media (max-width: 362.99px){
+    .RecommendedForYouMain{
+        /* background-color: orange; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 250px;
+    }
+    .RecommendForYou{
+        font-size: 18px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        padding: 2px 4px!important;
+        font-size: 9px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .RecommendedAddCartBtn{
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+@media (max-width: 575.99px) and (min-width: 363px){
+    .RecommendedForYouMain{
+        /* background-color: orange; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 250px;
+    }
+    .RecommendForYou{
+        font-size: 20px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 10px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .RecommendedAddCartBtn{
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* sm - 1 */
+@media (max-width: 649.99px) and (min-width: 576px) {
+    .RecommendedForYouMain{
+        /* background-color: red; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 180px;
+    }
+    .RecommendForYou{
+        font-size: 20px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 10px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .RecommendedAddCartBtn{
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* sm - 2 */
+@media (max-width: 767.99px) and (min-width: 650px){
+    .RecommendedForYouMain{
+        /* background-color: red; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 205px;
+    }
+    .RecommendForYou{
+        font-size: 20px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 10px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .RecommendedAddCartBtn{
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* md - 1 */
+@media (max-width: 810.99px) and (min-width: 768px) {
+    .RecommendedForYouMain{
+        /* background-color: blue; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 240px;
+    }
+    .RecommendedForYouPara .RecommendForYou{
+        font-size: 20px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 10px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .RecommendedAddCartBtn{
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* md - 2 */
+@media (max-width: 991.99px) and (min-width: 811px){
+    .RecommendedForYouMain{
+        /* background-color: blue; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 265px;
+    }
+    .RecommendForYou{
+        font-size: 23px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 10px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .RecommendedAddCartBtn{
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+@media (max-width: 1999.99px) and (min-width: 992px){
+    .RecommendedForYouMain{
+        /* background-color: green; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 235px;
+    }
+    .RecommendForYou{
+        font-size: 25px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 15px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 130px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 100px;
+    }
+    .RecommendedAddCartBtn{
+        background-color: #e6faef;
+        color: #4fb07c;
+        font-size: 11px;
+    }
+}
+/* xl - 1 */
+@media (max-width: 1303.99px) and (min-width: 1200px) {
+    .RecommendedForYouMain{
+        /* background-color: rebeccapurple; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 280px;
+    }
+    .RecommendForYou{
+        font-size: 25px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 15px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 150px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 120px;
+    }
+}
+/* xl - 2 */
+@media (max-width: 1399.99px) and (min-width: 1304px){
+    .RecommendedForYouMain{
+        /* background-color: rebeccapurple; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 310px;
+    }
+    .RecommendForYou{
+        font-size: 25px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 15px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 150px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 120px;
+    }
+}
+@media (min-width: 1400px) {
+    .RecommendedForYouMain{
+        /* background-color: gray; */
+    }
+    .RecommendedForYouMainContainer .RecommendedCardContainerBox{
+        width: 310px;
+    }
+    .RecommendForYou{
+        font-size: 30px;
+    }
+    .RecommendedBtnContainer .RecommendedBtn{
+        font-size: 15px;
+    }
+    .RecommendedCardContainerBox .RecommendedImgContainerCard{
+        /* background-color: red; */
+        height: 150px;
+        overflow: hidden;
+    }
+    .RecommendedVegetable1{
+        position: relative;
+        width: 120px;
+    }
+}
