@@ -1,0 +1,40 @@
+.loginMain{
+    background-color: aqua;
+}
+.loginMainContainer{
+    background-color: rebeccapurple;
+    /* background-color: #cef2df; */
+    max-width: 1680px;
+}
+.loginMainContainer .row{
+    /* background-color: yellowgreen; */
+    margin: 0px 10px;
+}
+.logBgContainer{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logBgContainer .logBg{
+    height: 641px;
+    /* opacity: 0.5; */
+    /* position: relative; */
+}
+.logBgContainer .loginLinkLogo{
+    position: absolute;
+}
+.logBgContainer .logoImgLogin{
+    background-color: #cef2df;
+    /* position: absolute; */
+    width: 400px;
+    padding: 20px 50px 20px 80px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0px 0px 10px 2px #e6f9ef;
+}
+.loginFormContainer{
+    background-color: blue;
+}
