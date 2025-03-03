@@ -1,23 +1,30 @@
 .loginMain{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .loginMainContainer{
-    background-color: rebeccapurple;
-    /* background-color: #cef2df; */
-    max-width: 1680px;
+    background-color: #cef2df;
+    /* background-color: #299e60; */
+    /* max-width: 1680px; */
+    /* margin: 0 auto; */
 }
 .loginMainContainer .row{
     /* background-color: yellowgreen; */
     margin: 0px 10px;
 }
 .logBgContainer{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: relative;
+    padding: 0!important;
 }
 .logBgContainer .logBg{
     height: 641px;
+    /* height: 100vh; */
+    width: 100%;
+    object-fit: cover;
     /* opacity: 0.5; */
     /* position: relative; */
 }
@@ -25,16 +32,134 @@
     position: absolute;
 }
 .logBgContainer .logoImgLogin{
-    background-color: #cef2df;
+    background-color: #cef2dfee;
     /* position: absolute; */
     width: 400px;
-    padding: 20px 50px 20px 80px;
+    padding: 10px 40px 10px 70px;
     border-top-left-radius: 100px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 100px;
-    box-shadow: 0px 0px 10px 2px #e6f9ef;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 0px 0px 5px 1px #e6f9ef;
 }
 .loginFormContainer{
-    background-color: blue;
+    /* background-color: blue; */
+}
+.formContainer{
+    /* background-color: green; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.loginForm{
+    /* background-color: yellow; */
+    width: 500px;
+    /* padding: 30px 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.formTextContainer{
+    /* background-color: red; */
+    margin: 50px 30px 30px;
+    margin-bottom: 10px;
+}
+.formTextContainer .Welcome{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.formTextContainer .loginYourAcc{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+.loginForm .label{
+    /* background-color: rgb(129, 129, 218); */
+    margin: 6px 30px;
+    font-size: 15px;
+}
+.loginForm .InputBox{
+    width: 100%;
+    margin: 0px 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: none;
+    border: 1px solid rgb(192, 189, 189);
+    border-radius: 10px;
+    outline-color: #cef2df;
+}
+.loginForm .forgotPassword{
+    /* background-color: blue; */
+    margin: 0px 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.loginForm  .loginButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.loginButtonContainer .loginButton{
+    width: 40%;
+    margin: 0px 100px;
+    padding: 10px 0px;
+    border: 1px solid #299e60;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #299e60;
+}
+.loginButtonContainer .loginButton:hover{
+    background-color: white;
+    color: #299e60;
+    transition: 0.3s ease;
+    border: 1px solid rgb(192, 189, 189);
+}
+.loginForm .newToShopSee{
+    /* background-color: red; */
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 30px;
+    margin-bottom: 0px;
+}
+.loginForm .createAccount{
+    text-decoration: none;
+    font-size: 14px;
+}
+/* .or{
+    text-align: center;
+    margin: 10px 30px;
+    margin-bottom: 0px;
+    font-size: 15px;
+} */
+.newAccContainer{
+    /* background-color: blue; */
+    margin: 5px 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.newAccContainer .or{
+    margin: 0px 10px;
+}
+.newAccContainer .hr1 , .hr2{
+    width: 100px;
+}
+.loginIconsContainer{
+    text-align: center;
+}
+.loginIconsContainer .loginLogo1 , .loginLogo2, .loginLogo3{
+    margin: 0px 10px;
 }

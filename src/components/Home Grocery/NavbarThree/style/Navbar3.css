@@ -1,0 +1,576 @@
+/* navbar 3 */
+#navbar3{
+    background-color: white;
+    padding: 0;
+}
+/* main container */
+#mainContainer{
+    max-width: 1680px;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    /* padding: 10px 20px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+/* dropdown 1 */
+#dropdowncontainer{
+    /* background-color: brown; */
+    /* padding: 10px 5px; */
+}
+/* dropdown links */
+#dropdownlinks{
+    /* background-color: rgb(255, 157, 0); */
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-left-color: #e6e6e6;
+    border-right-color: #e6e6e6;
+    padding: 10px 0px;
+    width: 200px; 
+}
+#dropdownlinks:hover{
+    color: #299e60;
+    transition: 0.4s ease;
+}
+/* grid icon */
+#gridIcon{
+    font-size: 20px;
+    margin: 0px 10px 0px 20px;
+}
+/* angle down icon */
+#faangledownIcon{
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+}
+/* dropdown container hover ul dropdown */
+#dropdowncontainer:hover #uldropdown{
+    display: block;
+    transition: 0.4s ease;
+}
+#dropdowncontainer:hover #faangledownIcon{
+    transform: rotate(180deg);
+    transition: transform 0.4s ease;
+}
+/* ul dropdown */
+#uldropdown{
+    width: 300px;
+}
+/* list items 1 */
+#listitems-1{
+    /* background-color: red; */
+}
+/* link 1 */
+#link1{
+    /* background-color: greenyellow; */
+    padding: 10px 20px;
+    color: gray;
+    /* display: flex;
+    justify-content:space-between; */
+}
+#link1:hover{
+    color: black;
+    transition: 0.4s ease;
+    background-color: #e6e6e6;
+}
+/* angle right icon */
+#faAngleRight{
+    /* background-color: blue; */
+    margin-top: 4px;
+    float: right;
+}
+/* vegetables dropdown UL hover */
+#listitems-1:hover #vegetablesDropdownUL{
+    display: block;
+}
+/* vegetables dropdown Ul */
+#vegetablesDropdownUL{
+    /* background-color: red; */
+    width: 290px;
+    position: absolute;
+    top: 6px;
+    left: 290px;
+}
+/*  vegetables para */
+.paraText{
+    cursor: text;
+    font-weight: bold;
+    margin: 5px 0px 15px 10px;
+}
+/* vegetablesDropdownLink */
+#vegetablesDropdownLIST{
+    /* background-color: green; */
+}
+/* vegetablesDropdownLink */
+#vegetablesDropdownLink{
+    /* background-color: blue; */
+    color: #989d9e;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* vegetables Dropdown Link hover */
+#vegetablesDropdownLink:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: 0.4s ease;
+}
+/* circle icon */
+#circleIcon{
+    font-size: 8px;
+    margin: 0px 10px 0px 0px;
+}
+/* beverages dropdown UL hover */
+#listitems-1:hover #beveragesDropdownUL{
+    display: block;
+}
+/* Beverages dropdown Ul */
+#beveragesDropdownUL{
+    /* background-color: green; */
+    width: 290px;
+    position: absolute;
+    /* top: 50px; */
+    top: 6px;
+    left: 290px;
+}
+/*  Beverages para */
+.paraText{
+    cursor: text;
+    margin: 5px 0px 15px 10px;
+}
+/* BeveragesDropdownLink */
+#BeveragesDropdownLIST{
+    /* background-color: green; */
+}
+/* BeveragesDropdownLink */
+#BeveragesDropdownLink{
+    /* background-color: blue; */
+    color: #989d9e;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* Beverages Dropdown Link hover */
+#BeveragesDropdownLink:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: 0.4s ease;
+}
+/* circle icon */
+#circleIcon{
+    font-size: 8px;
+    margin: 0px 10px 0px 0px;
+}
+/* Meats and seafood dropdown UL hover */
+#listitems-1:hover #meatsSeafoodDropdownUL{
+    display: block;
+}
+/* Meats and seafood dropdown Ul */
+#meatsSeafoodDropdownUL{
+    /* background-color: blue; */
+    width: 290px;
+    position: absolute;
+    /* top: 95px; */
+    top: 6px;
+    left: 290px;
+}
+/*  Meats and seafood para */
+.paraText{
+    cursor: text;
+    margin: 5px 0px 15px 10px;
+}
+/* Meats and seafood DropdownLink */
+#meatsSeafoodDropdownLIST{
+    /* background-color: green; */
+}
+/* Meats and seafood DropdownLink */
+#meatsSeafoodDropdownLink{
+    /* background-color: blue; */
+    color: #989d9e;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* Meats and seafood Dropdown Link hover */
+#meatsSeafoodDropdownLink:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: 0.4s ease;
+}
+/* circle icon */
+#circleIcon{
+    font-size: 8px;
+    margin: 0px 10px 0px 0px;
+}
+/* Breakfast & Dairy dropdown UL hover */
+#listitems-1:hover #breakfastDairyDropdownUL{
+    display: block;
+}
+/* Breakfast & Dairy dropdown Ul */
+#breakfastDairyDropdownUL{
+    /* background-color: yellow; */
+    width: 290px;
+    position: absolute;
+    /* top: 138px; */
+    top: 6px;
+    left: 290px;
+}
+/*  Breakfast & Dairy para */
+.paraText{
+    cursor: text;
+    margin: 5px 0px 15px 10px;
+}
+/* Breakfast & Dairy DropdownLink */
+#breakfastDairyDropdownLIST{
+    /* background-color: green; */
+}
+/* Breakfast & Dairy DropdownLink */
+#breakfastDairyDropdownLink{
+    /* background-color: blue; */
+    color: #989d9e;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* Breakfast & Dairy Dropdown Link hover */
+#breakfastDairyDropdownLink:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: 0.4s ease;
+}
+/* circle icon */
+#circleIcon{
+    font-size: 8px;
+    margin: 0px 10px 0px 0px;
+}
+/* Frozen Foods dropdown UL hover */
+#listitems-1:hover #frozenFoodsDropdownUL{
+    display: block;
+}
+/* Frozen Foods dropdown Ul */
+#frozenFoodsDropdownUL{
+    /* background-color: pink; */
+    width: 290px;
+    position: absolute;
+    /* top: 182px; */
+    top: 6px;
+    left: 290px;
+}
+/*  Frozen Foods para */
+.paraText{
+    cursor: text;
+    margin: 5px 0px 15px 10px;
+}
+/* Frozen Foods DropdownLink */
+#frozenFoodsDropdownLIST{
+    /* background-color: green; */
+}
+/* Frozen Foods DropdownLink */
+#frozenFoodsDropdownLink{
+    /* background-color: blue; */
+    color: #989d9e;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* Frozen Foods Dropdown Link hover */
+#frozenFoodsDropdownLink:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: 0.4s ease;
+}
+/* circle icon */
+#circleIcon{
+    font-size: 8px;
+    margin: 0px 10px 0px 0px;
+}
+/* Biscuits & Snacks dropdown UL hover */
+#listitems-1:hover #BiscuitsSnacksDropdownUL{
+    display: block;
+}
+/* Biscuits & Snacks dropdown Ul */
+#BiscuitsSnacksDropdownUL{
+    /* background-color: orange; */
+    width: 290px;
+    position: absolute;
+    /* top: 225px; */
+    top: 6px;
+    left: 290px;
+}
+/*  Biscuits & Snacks para */
+.paraText{
+    cursor: text;
+    margin: 5px 0px 15px 10px;
+}
+/* Biscuits & Snacks DropdownLink */
+#BiscuitsSnacksDropdownLIST{
+    /* background-color: green; */
+}
+/* Biscuits & Snacks DropdownLink */
+#BiscuitsSnacksDropdownLink{
+    /* background-color: blue; */
+    color: #989d9e;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* Biscuits & Snacks Dropdown Link hover */
+#BiscuitsSnacksDropdownLink:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: 0.4s ease;
+}
+/* circle icon */
+#circleIcon{
+    font-size: 8px;
+    margin: 0px 10px 0px 0px;
+}
+/* Grocery & Staples dropdown UL hover */
+#listitems-1:hover #groceryStaplesDropdownUL{
+    display: block;
+}
+/* Grocery & Staples dropdown Ul */
+#groceryStaplesDropdownUL{
+    /* background-color: rebeccapurple; */
+    width: 290px;
+    position: absolute;
+    /* top: 270px; */
+    top: 6px;
+    left: 290px;
+}
+/*  Grocery & Staples para */
+.paraText{
+    cursor: text;
+    margin: 5px 0px 15px 10px;
+}
+/* Grocery & Staples DropdownLink */
+#groceryStaplesDropdownLIST{
+    /* background-color: green; */
+}
+/* Grocery & Staples DropdownLink */
+#groceryStaplesDropdownLink{
+    /* background-color: blue; */
+    color: #989d9e;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+/* Grocery & Staples Dropdown Link hover */
+#groceryStaplesDropdownLink:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: 0.4s ease;
+}
+/* circle icon */
+#circleIcon{
+    font-size: 8px;
+    margin: 0px 10px 0px 0px;
+}
+/* items container */
+.itemsContainer{
+    /* background-color: red; */
+    height: 50px;
+}
+/* items Ul */
+#itemsUl{
+    /* background-color: pink; */
+    height: 50px;
+}
+/* items List */
+#itemsList{
+    /* background-color: green; */
+    margin-left: 2px;
+}
+/* items Link */
+#itemsLink{
+    /* background-color: burlywood; */
+    height: 50px;
+    color: #989d9e;
+    font-size: 13px;
+    padding: 15px 0px 15px 5px;
+}
+/* items angle down icon */
+#itemsAngleDownIcon{
+    font-size: 13px;
+    margin: 0px 10px 0px 10px;
+}
+/* angle down icon hover */
+#itemsList :hover #itemsAngleDownIcon{
+    transform: rotate(180deg);
+    transition: 0.4s ease;
+}
+/* ul dropdown hover*/
+#itemsList:hover #itemsUlDropdown{
+    display: block;
+    transition: 0.4s ease;
+}
+/* items List Contact */
+#itemsListContact{
+    /* background-color: green; */
+    margin-left: 2px;
+}
+/* items Link Contact */
+#itemsLinkContact{
+    /* background-color: brown; */
+    color: #989d9e;
+    /* width: 100px; */
+    height: 50px;
+    font-size: 13px;
+    padding: 15px 5px;
+}
+/* itemsList  and itemsLink hover */
+#itemsList:hover #itemsLink{
+    color: #299e60;
+    transition: 0.4s ease;
+}
+/* itemsListContact and itemsLinkContact hover */
+#itemsListContact:hover #itemsLinkContact{
+    color: #299e60;
+    transition: 0.4s ease;
+}
+/* items dropdown ul for home to blog items */
+#itemsUlDropdown{
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    border: 1px solid rgb(245, 242, 242);
+    /* box-shadow: 0.1px 0.1px 5px 0.5px rgb(230, 226, 226); */
+}
+/* items Li Dropdown */
+#itemsLiDropdown{
+    /* background-color: red; */
+    margin: 0px 5px;
+}
+/* items Link Dropdown */
+#itemsLinkDropdown{
+    color: #989d9e;
+    border-radius: 3px;
+}
+/* items Link Dropdown hover */
+#itemsLinkDropdown:hover{
+    background-color: #e6e6e6;
+    color: #666;
+}
+/* contact button with number */
+.contactBtnNumber{
+    /* background-color: rgb(255, 157, 0); */
+    position: absolute;
+    right: 10px;
+}
+/* contact Btn Link */
+#contactBtnLink{
+    background-color: #299e60;
+    color: white;
+    padding: 13px 20px;
+    font-size: 17px;
+}
+#contactBtnLink:hover{
+    background-color: hsl(148, 59%, 31.2%);
+    transition: 0.4s ease;
+}
+/* phone volume icon for contact button */
+#faPhoneVolume{
+    padding: 0px 10px 0px 0px;
+    font-size: 20px;
+}
+
+/* wishlist and cart container Nav-3*/
+.wishlistAndCartContainerNav-3{
+    /* width: 190px; */
+    height: 50px;
+    font-size: 17px; 
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+/* search icon list Nav-3 */
+#searchIconListNav-3{
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* search icon link Nav-3 */
+#searchIconLinkNav-3{
+    /* background-color: aqua; */
+    font-size: 20px;
+    padding: 10px 10px 10px 11px;
+}
+/* search icon icon Nav-3 */
+#searchIconNav-3{
+    color: #4d5b87; 
+}
+/* wishlist list Nav-3 */
+#wishlistListNav-3{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* wishlist link Nav-3 */
+#wishlistLinkNav-3{
+    /* background-color: chocolate; */
+    font-size: 22px;
+    padding: 9px 10px 9px 10px;
+}
+/* wishlist icon Nav-3 */
+#wishlistIconNav-3{
+    color: #4d5b87;
+    /* background-color: skyblue; */
+}
+/* span count 1 for wishlist Nav-3 */
+.spanCount1Nav-3{
+    background-color: #299e60;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    top: 7px;
+    right: 93px;
+    z-index: 1;
+}
+/* cart list Nav-3 */
+#cartListNav-3{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* cart link Nav-3 */
+#cartLinkNav-3{
+    /* background-color: chartreuse; */
+    font-size: 25px;
+    padding: 7px 10px 7px 10px;
+}
+/* cart icon Nav-3 */
+#cartIconNav-3{
+    color: #4d5b87; 
+}
+/* span count 1 for cart Nav-3 */
+.spanCount2Nav-3{
+    background-color: #299e60;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    top: 7px;
+    right: 55px;
+    z-index: 1;
+}
+/* menu bar list Nav-3 */
+#menuBarListNav-3{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* menu bar link Nav-3 */
+#menuBarLinkNav-3{
+    /* background-color: pink; */
+    font-size: 25px;
+    padding: 7px 10px 7px 10px;
+}
+/* menu bar icon Nav-3 */
+#menuBarIconNav-3{
+    color: #4d5b87; 
+}

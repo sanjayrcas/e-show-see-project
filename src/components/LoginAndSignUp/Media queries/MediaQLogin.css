@@ -1,0 +1,253 @@
+@media (max-width: 575.99px){
+    .loginMainContainer{
+        /* background-color: orange; */
+    }
+    .logBgContainer{
+        /* height: 641px; */
+    }
+    .logBgContainer .loginLinkLogo{
+        margin-top: 120px;
+    }
+    .logBgContainer .logoImgLogin{
+        background-color: transparent;
+        width: 250px;
+        padding: 5px 40px 0px 40px;
+        border-radius: 0;
+        border-style: none;
+        box-shadow: none;
+    }
+    .formTextContainer{
+        margin: 110px 30px 30px;
+        margin-bottom: 0px;
+    }
+    .formTextContainer .Welcome{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .formTextContainer .loginYourAcc{
+        font-size: 15px;
+        margin: 5px 0px 10px 0px;
+    }
+    .loginButtonContainer .loginButton{
+        width: 50%;
+        margin: 0px 50px;
+        padding: 8px 0px;
+        font-size: 17px;
+    }
+    .loginForm .newToShopSee{
+        font-size: 14px;
+        margin: 25px 30px;
+        margin-bottom: 0px;
+    }
+    .loginForm .createAccount{
+        font-size: 12px;
+    }
+    .newAccContainer .or{
+        margin: 1px 10px;
+    }
+    .newAccContainer .hr1 , .hr2{
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .loginIconsContainer{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .loginIconsContainer .loginLogo1 , .loginLogo2, .loginLogo3{
+        margin: 0px 10px;
+    }
+}
+@media (max-width: 767.99px) and (min-width: 576px){
+    .loginMainContainer{
+        /* background-color: red; */
+    }
+    .logBgContainer{
+        /* height: 641px; */
+    }
+    .logBgContainer .loginLinkLogo{
+        margin-top: 120px;
+    }
+    .logBgContainer .logoImgLogin{
+        background-color: transparent;
+        width: 250px;
+        padding: 5px 40px 0px 40px;
+        border-radius: 0;
+        border-style: none;
+        box-shadow: none;
+    }
+    .formTextContainer{
+        margin: 110px 30px 30px;
+        margin-bottom: 0px;
+    }
+    .formTextContainer .Welcome{
+        font-size: 25px;
+        margin: 0px;
+    }
+    .formTextContainer .loginYourAcc{
+        font-size: 18px;
+        margin: 10px 0px 20px 0px;
+    }
+    .loginIconsContainer{
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .loginIconsContainer .loginLogo1 , .loginLogo2, .loginLogo3{
+        margin: 0px 10px;
+    }
+}
+@media (max-width: 991.99px) and (min-width: 768px){
+    .loginMainContainer{
+        /* background-color: blue; */
+    }
+    .logBgContainer .logBg{
+        height: 641px;
+        width: 100%;
+    }
+    .logBgContainer .logoImgLogin{
+        width: 320px;
+        padding: 15px 30px 15px 80px;
+        box-shadow: 0px 0px 5px 1px #e6f9ef;
+    }
+    .loginForm{
+        width: 500px;
+    }
+    .formTextContainer{
+        margin-bottom: 5px;
+    }
+    .formTextContainer .Welcome{
+        font-size: 20px;
+    }
+    .formTextContainer .loginYourAcc{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+    }
+    .loginForm .label{
+        font-size: 13px;
+    }
+    .loginForm .InputBox{
+        margin-bottom: 5px;
+        padding: 8px;
+    }
+    .loginButtonContainer .loginButton{
+        width: 50%;
+        margin: 0px 0px;
+        padding: 8px 0px;
+        font-size: 16px;
+    }
+    .loginForm .newToShopSee{
+        font-size: 12px;
+        margin: 20px 20px;
+        margin-bottom: 0px;
+    }
+    .loginForm .createAccount{
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .newAccContainer{
+        margin: 10px 30px;
+        margin-bottom: 20px;
+    }
+    .newAccContainer .or{
+        margin: 0px 10px;
+    }
+    .newAccContainer .hr1 , .hr2{
+        width: 60px;
+    }
+}
+@media (max-width: 1999.99px) and (min-width: 992px){
+    .loginMainContainer{
+        /* background-color: green; */
+    }
+    .logBgContainer .logBg{
+        height: 641px;
+        width: 100%;
+    }
+    .logBgContainer .logoImgLogin{
+        width: 350px;
+        padding: 15px 60px 10px 60px;
+        box-shadow: 0px 0px 5px 1px #e6f9ef;
+    }
+}
+@media (max-width: 1399.99px) and (min-width: 1200px){
+    .loginMainContainer{
+        /* background-color: rebeccapurple; */
+    }
+    .logBgContainer .logBg{
+        height: 641px;
+        /* height: 100vh; */
+        width: 100%;
+    }
+    .logBgContainer .logoImgLogin{
+        width: 400px;
+        padding: 10px 40px 10px 70px;
+        box-shadow: 0px 0px 5px 1px #e6f9ef;
+    }
+    .formContainer{
+        height: 100%;
+    }
+    .loginForm{
+        width: 500px;
+    }
+    .formTextContainer{
+        margin: 50px 30px 30px;
+        margin-bottom: 10px;
+    }
+    .formTextContainer .Welcome{
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .formTextContainer .loginYourAcc{
+        font-size: 18px;
+        font-weight: 600;
+        margin: 10px 0px 20px 0px;
+    }
+    .loginForm .label{
+        margin: 6px 30px;
+        font-size: 15px;
+    }
+    .loginForm .InputBox{
+        width: 100%;
+        margin: 0px 30px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .loginForm .forgotPassword{
+        margin: 0px 30px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .loginButtonContainer .loginButton{
+        width: 40%;
+        margin: 0px 100px;
+        padding: 10px 0px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .loginForm .newToShopSee{
+        font-size: 15px;
+        margin: 15px 30px;
+        margin-bottom: 0px;
+    }
+    .loginForm .createAccount{
+        font-size: 14px;
+    }
+    .newAccContainer{
+        margin: 5px 30px;
+    }
+    .newAccContainer .or{
+        margin: 0px 10px;
+    }
+    .newAccContainer .hr1 , .hr2{
+        width: 100px;
+    }
+    .loginIconsContainer .loginLogo1 , .loginLogo2, .loginLogo3{
+        margin: 0px 10px;
+    }
+}
+@media (max-width: 1679.99px) and (min-width: 1400px){
+    .loginMainContainer{
+        /* background-color: gray; */
+    }
+}

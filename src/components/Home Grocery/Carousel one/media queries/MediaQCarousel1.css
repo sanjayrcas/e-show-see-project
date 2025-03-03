@@ -1,0 +1,211 @@
+/* media queries for carousel - 1 - SM   */
+@media (max-width: 575.98px){
+  .carouselSlider1{
+    background-color: #d3ebc0;
+    background-image: none;
+    width: 95vw;
+    height: 390px;
+    margin: 30px auto;
+    padding: 10px;
+  }
+  #carousel-inner{
+    /* background-color: rebeccapurple; */
+    width: 90vw;
+    height: 350px;
+    margin-top: 0px;
+  }
+  #Heading{
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  .exploreShopBtn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .right-box{
+    display: flex;
+    justify-content: center;
+  }
+  /* carousel slide img */
+  .carouselSlider1 img{
+    /* background-color: red; */
+    /* width: 260px; */
+    
+    height: 210px;
+  }
+  #carouselBanner1{
+    padding: 0px 0px 0px 0px;
+  }
+  #carouselBanner2{
+      padding: 20px 20px 30px 20px;
+    }
+  #carousel-control-prev,
+  #carousel-control-next{
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      position: absolute;
+      top: 180px;
+    }
+    /* Arrows Down To Line Btn */
+    #faArrowsDownToLineBtn{
+      width: 65px;
+      height: 65px;
+      position: absolute;
+      top: 355px;
+    }
+}
+/* media queries for carousel - 1 - SM   */
+@media (max-width: 767.98px) and (min-width: 576px){
+  .carouselSlider1{
+    background-color: #d3ebc0;
+    background-image: none;
+    width: 95vw;
+    height: 230px;
+    margin: 30px auto;
+    padding: 10px;
+  }
+  #carousel-inner{
+    /* background-color: rebeccapurple; */
+    width: 90vw;
+    height: 170px;
+    margin-top: 20px;
+  }
+  #Heading{
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  .exploreShopBtn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  /* carousel slide img */
+  .carouselSlider1 img{
+    /* background-color: red; */
+    width: 260px;
+    height: 170px;
+  }
+  #carouselBanner1{
+    padding: 0px 0px 0px 0px;
+  }
+  #carouselBanner2{
+      padding: 20px 20px 30px 20px;
+    }
+  #carousel-control-prev,
+  #carousel-control-next{
+      width: 35px;
+      height: 35px;
+      font-size: 20px;
+      position: absolute;
+      top: 100px;
+    }
+    /* Arrows Down To Line Btn */
+    #faArrowsDownToLineBtn{
+      width: 65px;
+      height: 65px;
+      position: absolute;
+      top: 195px;
+    }
+}
+/* media queries for carousel - 1 - MD   */
+@media (max-width: 992.98px) and (min-width: 768px){
+    .carouselSlider1{
+        /* background-color: orange; */
+        width: 97vw;
+        height: 380px;
+        margin: 40px auto;
+        padding: 10px;
+      }
+      #carousel-inner{
+        /* background-color: rebeccapurple; */
+        width: 95vw;
+        height: 220px;
+        margin-top: 55px;
+      }
+      #Heading{
+        margin-top: 10px;
+        font-size: 29px;
+      }
+      .exploreShopBtn{
+        padding: 10px 20px;
+        margin-top: 30px;
+        font-size: 17px;
+        font-weight: normal;
+      }
+      /* carousel slide img */
+      .carouselSlider1 img{
+          /* background-color: red; */
+          width: 299px;
+          height: 220px;
+      }
+      #carouselBanner1{
+          padding: 0px 0px 0px 0px;
+        }
+      #carouselBanner2{
+          padding: 0px 0px 0px 0px;
+        }
+      #carousel-control-prev,
+      #carousel-control-next{
+          width: 45px;
+          height: 45px;
+          position: absolute;
+          top: 160px;
+        }
+      /* Arrows Down To Line Btn */
+      #faArrowsDownToLineBtn{
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          top: 320px;
+        }
+}
+/* media queries for carousel - 1 - LG   */
+@media (max-width: 1199.98px) and (min-width: 992px){
+    .carouselSlider1{
+        /* background-color: orange; */
+        width: 97vw;
+        height: 430px;
+        margin: 40px auto;
+        padding: 10px;
+      }
+      #carousel-inner{
+        /* background-color: rebeccapurple; */
+        width: 85vw;
+        height: 255px;
+        margin-top: 55px;
+      }
+      #Heading{
+        font-size: 39px;
+      }
+      .exploreShopBtn{
+        padding: 10px 20px;
+        margin-top: 30px;
+      }
+      /* carousel slide img */
+      .carouselSlider1 img{
+          width: 350px;
+          height: 290px;
+      }
+      #carouselBanner1{
+          padding: 0px 0px 60px 0px;
+        }
+        #carouselBanner2{
+          padding: 20px 30px 70px 30px;
+        }
+      #carousel-control-prev,
+      #carousel-control-next{
+      position: absolute;
+      top: 170px;
+        }
+      /* Arrows Down To Line Btn */
+      #faArrowsDownToLineBtn{
+          width: 65px;
+          height: 65px;
+          position: absolute;
+          top: 350px;
+        }
+}

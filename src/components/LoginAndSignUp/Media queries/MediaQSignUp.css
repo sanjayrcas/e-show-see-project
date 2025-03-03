@@ -1,0 +1,62 @@
+@media (max-width: 374.99px){
+    .logoImgSignUp{
+        background-color: #cef2dfee;
+        width: 160px;
+        padding: 0px 10px;
+    }
+    .SignUpFormTextContainer .SignUpWelcome{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .signUpForm  .signUpButtonContainer{
+        margin-top: 0px;
+     }
+     .signUpButtonContainer .signUpButton{
+         width: 60%;
+         margin: 0px 0px;
+         margin-bottom: 0px;
+         padding: 7px 0px;
+         font-size: 15px;
+     }
+    .SignUpNewAccContainer{
+        margin: 5px 30px;
+        margin-bottom: 0px;
+    }
+    .SignUpNewAccContainer .SignUpHr1 , .SignUpHr2{
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+@media (max-width: 577.99px) and (min-width: 375px){
+    .signUpLinkLogo{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .logoImgSignUp{
+        background-color: #cef2dfee;
+        width: 180px;
+        padding: 0px 10px;
+    }
+    .signUpForm  .signUpButtonContainer{
+        margin-top: 13px;
+     }
+     .signUpButtonContainer .signUpButton{
+         width: 40%;
+         margin: 0px 100px;
+         margin-bottom: 0px;
+         padding: 7px 0px;
+         font-size: 17px;
+     }
+    .SignUpNewAccContainer{
+        margin: 5px 30px;
+        margin-bottom: 0px;
+    }
+    .SignUpNewAccContainer .SignUpOr{
+        margin: 0px 10px;
+    }
+    .SignUpNewAccContainer .SignUpHr1 , .SignUpHr2{
+        width: 100%;
+        margin: 10px 0px;
+    }
+}

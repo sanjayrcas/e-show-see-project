@@ -1,0 +1,77 @@
+.footerMain{
+    /* background-color: aqua; */
+}
+.footerMainContainer{
+    /* background-color: rebeccapurple; */
+    max-width: 1680px
+}
+.footerCol{
+    /* background-color: gray; */
+}
+.footerLogoContainer{
+    /* background-color: red; */
+}
+.footerLogoImg{
+    /* background-color: burlywood; */
+    width: 200px;
+}
+.footerInformation1{
+    /* background-color: cadetblue; */
+}
+.footerInformationText{
+    color: #828282;
+}
+.footerIcons{
+    background-color: #299e60;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    margin-right: 15px;
+}
+#footerTextSpan1{
+    color: #299e60;
+    margin: 0px 10px;
+}
+.footerText:hover{
+    color: #299e60;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+#footerTextSpan2:hover{
+    color: #299e60;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.footerText1{
+    color: #757575;
+
+}
+.footerText1:hover{
+    color: #299e60;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.footerIconsListContainer{
+    /* background-color: red; */
+}
+.footerSocialIcons{
+    background-color: hsl(148, 59%, 87.8%);
+    color: #299e60;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+}
+.footerSocialIcons:hover{
+    background-color: #299e60;
+    color: white;
+    transition: 0.4s ease;
+}
+.footerCopyRightsContainer{
+    background-color: #f3faf2;
+    margin-top: 100px;
+}
+.footerCopyRightText{
+    color: #828282;
+}

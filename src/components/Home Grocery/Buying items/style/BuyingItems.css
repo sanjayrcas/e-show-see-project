@@ -1,0 +1,84 @@
+.BuyingItemsMain{
+    /* background-color: aqua; */
+}
+.BuyingItemsMainContainer{
+    /* background-color: rebeccapurple; */
+    max-width: 1680px;
+}
+.BuyingItemsMainContainer .cardContainerBox{
+    /* background-color: red; */
+    width: 310px;
+    border-style: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+}
+.cardContainerBox .imgContainerCard{
+    /* background-color: red; */
+    height: 170px;
+}
+.vegetable1{
+    position: relative;
+}
+.cardContainerBox:hover{
+    border-color: #299e60;
+    transition: 0.4s ease;
+}
+.cardContainerBox:hover .vegetable1{
+    transform: scale(1.2);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.addCartBtn{
+    position: absolute;
+    top: 20px;
+    background-color: #e6faef;
+    color: #4fb07c;
+    font-size: 12px;
+}
+.addCartBtn:hover{
+    background-color: #299e60;
+    color: white;
+    transition: 0.4s ease;
+}
+.ratings{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.TaylorFarms:hover{
+    color: #299e60;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.ByLuckySupermarket{
+    font-size: 11px;
+}
+.inputRange {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease;
+}
+  
+.inputRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 150px;
+    height: 3px;
+    background: #4caf50;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4caf50;
+    transition: background 0.3s ease;
+}
+  
+.inputRange::-webkit-slider-runnable-track {
+    background: #f2f2f2;
+    height: 3px;
+    border-radius: 5px;
+}
+.soldData{
+    font-size: 12px;
+}

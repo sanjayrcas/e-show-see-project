@@ -1,0 +1,160 @@
+.signUpMain{
+    /* background-color: aqua; */
+}
+.signUpMainContainer{
+    background-color: #cef2df;
+    height: 640px;
+    /* background-image: url('../image/15083446.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.row .signUpFormContainer{
+    /* background-color: blue; */
+    padding: 0;
+}
+.SignUpFormContainer{
+    /* background-color: green; */
+    padding: 0!important;
+    margin: 0!important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.signUpForm{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.signUpLinkLogo{
+    /* background-color: red!important; */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.logoImgSignUp{
+    background-color: #cef2dfee;
+    width: 200px;
+    padding: 0px 10px;
+}
+.SignUpFormTextContainer{
+    /* background-color: red; */
+    margin: 0px 30px 30px;
+    margin-bottom: 0px;
+}
+.SignUpFormTextContainer .SignUpWelcome{
+    font-weight: 700;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+/* .SignUpFormTextContainer .signUpYourAcc{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+} */
+.signUpForm .SignUpLabel{
+    /* background-color: rgb(129, 129, 218); */
+    margin: 10px 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.signUpForm .SignUpInputBox{
+    width: 100%;
+    margin: 0px 30px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: none;
+    border: 1px solid rgb(192, 189, 189);
+    border-radius: 10px;
+    outline-color: #cef2df;
+}
+.SignUpAgreeToTerms{
+    /* background-color: red; */
+    margin: 10px 30px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.SignUpAgreeToTermsCheckBox{
+    margin-right: 5px;
+}
+.SignUpAgreeToTerms .SignUpTermsAndConditions{
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 11px;
+}
+.signUpForm  .signUpButtonContainer{
+   /* background-color: blue; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-top: 18px;
+}
+.signUpButtonContainer .signUpButton{
+    width: 40%;
+    margin: 0px 100px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    border: 1px solid #299e60;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #299e60;
+}
+.signUpButtonContainer .signUpButton:hover{
+    background-color: white;
+    color: #299e60;
+    transition: 0.3s ease;
+    border: 1px solid rgb(192, 189, 189);
+}
+.signUpForm .SignUpHaveAccount{
+    /* background-color: red; */
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 30px;
+    margin-bottom: 0px;
+}
+.SignUpHaveAccount .signUpAccount{
+    text-decoration: none;
+}
+.signUpForm .createAccount{
+    text-decoration: none;
+    font-size: 14px;
+}
+.SignUpNewAccContainer{
+    /* background-color: blue; */
+    margin: 5px 30px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.SignUpNewAccContainer .SignUpOr{
+    margin: 0px 10px;
+}
+.SignUpNewAccContainer .SignUpHr1 , .SignUpHr2{
+    width: 100px;
+}
+.signUpIconsContainer{
+    /* background-color: red; */
+    text-align: center;
+    margin-bottom: 15px;
+}
+.signUpIconsContainer .signUpLogo1 , .signUpLogo2, .signUpLogo3{
+    margin: 0px 10px;
+}

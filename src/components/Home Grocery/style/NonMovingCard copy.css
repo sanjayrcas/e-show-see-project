@@ -1,0 +1,30 @@
+.nonMovingCardMain{
+    /* background-color: aqua; */
+}
+.nonMovingContainerMain{
+    /* background-color: blueviolet; */
+    max-width: 1680px;
+}
+.nonMovingImgContainer .nonImg{
+    /* background-color: red; */
+    height: 300px;
+}
+.nonTitleDiv{
+    /* background-color: blue; */
+    width: 220px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+.nonTitleText{
+    font-size: 23px;
+}
+.nonButtonDiv{
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+.nonButton:hover{
+    background-color: hsl(147, 60%, 27%) !important;
+    transition: 0.4s ease;
+}

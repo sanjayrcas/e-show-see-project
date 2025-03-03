@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../Fonts//Quicksand_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.dontMissMain {
+    /* background-color: aqua; */
+}
+
+.dontMissMain .dontMissMainContainer {
+    /* background-color: rebeccapurple; */
+    max-width: 1680px;
+    width: 100%;
+    padding: 0;
+    /* margin: auto; */
+}
+
+.dontMissMainContainer .dontMissBgContainer {
+    background-color: #121536;
+    border-radius: 20px;
+    height: 440px;
+    margin: 0px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dontMissBgContainer .dontMissBg {
+    /* background-color: red; */
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dontMissItemContainer {
+    /* background-color: blue; */
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dontMissItemContainer .dontMissTitle{
+    /* background-color: rebeccapurple; */
+    font-family: Quicksand;
+    width: 590px;
+    font-size: 70px;
+    letter-spacing: -1px;
+    margin: 20px 0px 0px 40px;
+}
+.dontMissItemContainer .dontMissText{
+    /* background-color: red; */
+    font-size: 25px;
+    margin: 0px 0px 0px 40px;
+}
+.dontMissInputContainer{
+    position: relative;
+    /* background-color: gray; */
+    width: 80%;
+    margin: 30px 0px 0px 40px;
+    display: flex;
+    align-items: center;
+}
+.dontMissItemContainer #dontMissInput{
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    outline-color: #299e60;
+    padding: 20px 15px;
+    padding-right: 120px;
+}
+.dontMissItemContainer .dontMissBtn{
+    background-color: #fa6800;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-style: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    white-space: nowrap;
+}
+.dontMissImgContainer {
+    height: 450px;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.dontMissImgContainer .dontMissImg {
+    max-width: 100%;
+    margin-top: 30px;
+    height: auto;
+}
+
+
+

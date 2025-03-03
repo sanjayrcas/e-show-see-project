@@ -1,0 +1,65 @@
+.flashMainContainer{
+    /* background-color: aqua; */
+}
+.FlashSalesToday{
+    /* background-color: bisque; */
+    margin-top: 80px;
+}
+.flashContainerFluid{
+    /* background-color: rebeccapurple; */
+    max-width: 1680px;
+}
+.flashContainerFluid .slick-prev{
+    /* background-color: red; */
+    position: absolute;
+    top: 140px;
+    /* right: 0; */
+    transform: translateX(91vw) translateY(-200px);
+}
+.flashContainerFluid .slick-next{
+    /* background-color: red; */
+    position: absolute;
+    top: 140px;
+    /* right: 100px; */
+    transform: translateX(-3vw) translateY(-200px);
+}
+.flashContainerFluid .slick-prev::before{
+    /* background-color: blue; */
+    color: #299e60 !important;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.flashContainerFluid .slick-next::before{
+    /* background-color: blue; */
+    font-size: 40px !important ;
+    color: #299e60 !important;
+    border-radius: 50%;
+    margin-right: -80px;
+}
+.flashBgContainer{
+    height: 280px;
+}
+.flashBgContainer .flashBgImage{
+    height: 280px;
+}
+.flashBgContainer .flashImgContainer{
+    /* background-color: red; */
+    margin: 50px 0px 50px 40px;
+}
+.flashBgContainer .flashDataContainer {
+    /* background-color: yellow; */
+    margin: 50px 0px 50px 0px;
+}
+.flashBgContainer .flashTitle{
+    margin-left: -10px;
+    /* background-color: blue; */
+    font-size: 30px;
+    font-weight: bold;
+}
+.flashButton{
+    margin-top: 80px;
+}
+.flashButton:hover{
+    background-color: hsl(147, 60%, 27%) !important;
+    transition: 0.4s ease;
+}
