@@ -1,11 +1,11 @@
 .loginMain{
     /* background-color: aqua; */
+    /* min-height: 100vh;
+    height: auto; */
 }
 .loginMainContainer{
     background-color: #cef2df;
     /* background-color: #299e60; */
-    /* max-width: 1680px; */
-    /* margin: 0 auto; */
 }
 .loginMainContainer .row{
     /* background-color: yellowgreen; */

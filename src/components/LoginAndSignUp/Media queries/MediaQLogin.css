@@ -1,6 +1,6 @@
 @media (max-width: 575.99px){
     .loginMainContainer{
-        /* background-color: orange; */
+        background-color: orange;
     }
     .logBgContainer{
         /* height: 641px; */
@@ -51,7 +51,8 @@
     }
     .loginIconsContainer{
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 45px;
+        background-color: red;
     }
     .loginIconsContainer .loginLogo1 , .loginLogo2, .loginLogo3{
         margin: 0px 10px;
