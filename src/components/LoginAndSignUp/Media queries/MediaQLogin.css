@@ -143,11 +143,14 @@
         margin-bottom: 5px;
         padding: 8px;
     }
+    .loginForm  .loginButtonContainer{
+       background-color: red;
+    }
     .loginButtonContainer .loginButton{
         width: 50%;
-        margin: 0px 0px;
-        padding: 8px 0px;
-        font-size: 16px;
+        margin: 0px 50px;
+        padding: 8px 20px;
+        font-size: 17px;
     }
     .loginForm .newToShopSee{
         font-size: 12px;
