@@ -39,9 +39,9 @@ export default function Login() {
                                 <Link to={'/forgotPassword'} className='forgotPassword'>Forgot Password</Link>
                             <div className="loginButtonContainer">
                                 {/* link for path */}
-                                {/* <Link to={'#'} className='login-link-btn '> */}
+                                <Link to={'/home'} className='login-link-btn '>
                                     <button type='submit' className='loginButton'>Login</button>
-                                {/* </Link> */}
+                                </Link>
                             </div>
                             <p className='newToShopSee'>New to E-SHOP-SEE? <Link className='createAccount' to={'/createAccount'}>Create an account</Link></p>
                             <div className="newAccContainer">
