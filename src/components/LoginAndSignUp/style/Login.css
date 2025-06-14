@@ -6,6 +6,7 @@
 .loginMainContainer{
     background-color: #cef2df;
     /* background-color: #299e60; */
+    height: 100vh;
 }
 .loginMainContainer .row{
     /* background-color: yellowgreen; */
