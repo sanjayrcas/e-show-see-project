@@ -105,7 +105,7 @@ export default function Navbar2() {
                         </li>
                         <span className='spanCount2'>2</span>
                         <li id='cartList' className='list-unstyled'>
-                            <Link to={'/YourCart'} id='cartLink' className='text-decoration-none'>
+                            <Link to={''} id='cartLink' className='text-decoration-none'>
                                 {/* cart icon */}
                                 <i class="bi bi-cart2" id='cartIcon'></i>
                                 Cart

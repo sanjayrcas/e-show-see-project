@@ -6,7 +6,6 @@
 .loginMainContainer{
     background-color: #cef2df;
     /* background-color: #299e60; */
-    height: 100vh;
 }
 .loginMainContainer .row{
     /* background-color: yellowgreen; */
@@ -22,7 +21,7 @@
     padding: 0!important;
 }
 .logBgContainer .logBg{
-    height: 647px!important;
+    height: 641px;
     /* height: 100vh; */
     width: 100%;
     object-fit: cover;

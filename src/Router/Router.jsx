@@ -15,19 +15,15 @@ import DontMissOutOnDeals from '../components/Home Grocery/Dont Miss Out On Deal
 import Footer from '../components/Home Grocery/Footer/Footer';
 import Login from '../components/LoginAndSignUp/Login';
 import SignUp from '../components/LoginAndSignUp/SignUp';
-// import EmptyCart from '../components/Cart/EmptyCart';
-import YourCart from '../components/Cart/YourCart';
 
 export default function Router() {
     return (
         <div>
             <BrowserRouter>
-                {/* <EmptyCart/> */}
                 <Routes>    
                     <Route path='/' element={<Login/>}/>
                     <Route path='/createAccount' element={<SignUp/>}/>
                     <Route path='/login' element={<Login/>}/>
-                    <Route path='/YourCart' element={<YourCart/>}/>
                     <Route path='/home' element={
                         <div>
                             <Navbar1/>
