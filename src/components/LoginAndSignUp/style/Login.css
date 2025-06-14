@@ -22,7 +22,7 @@
     padding: 0!important;
 }
 .logBgContainer .logBg{
-    height: 641px;
+    height: 647px!important;
     /* height: 100vh; */
     width: 100%;
     object-fit: cover;
